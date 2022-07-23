@@ -1,4 +1,4 @@
-max_repair_cost: 50
+max_repair_cost: 50000000
 too_expensive_message: true
 
 merge_book_on_book: true
@@ -44,7 +44,7 @@ enchantments:
     disabled: false
   fire_aspect:
     multiplier: 10
-    limit: 5
+    limit: 50
     disabled: false
   fire_protection:
     multiplier: 10
@@ -56,11 +56,11 @@ enchantments:
     disabled: false
   fortune:
     multiplier: 10
-    limit: 10
+    limit: 100
     disabled: false
   frost_walker:
     multiplier: 10
-    limit: 2
+    limit: 20
     disabled: false
   impaling:
     multiplier: 10
@@ -72,23 +72,23 @@ enchantments:
     disabled: false
   knockback:
     multiplier: 10
-    limit: 2
+    limit: 20
     disabled: false
   looting:
     multiplier: 10
-    limit: 10
+    limit: 100
     disabled: false
   loyalty:
     multiplier: 10
-    limit: 3
+    limit: 30
     disabled: false
   luck_of_the_sea:
     multiplier: 10
-    limit: 10
+    limit: 100
     disabled: false
   lure:
     multiplier: 10
-    limit: 10
+    limit: 100
     disabled: false
   mending:
     multiplier: 10
@@ -116,7 +116,7 @@ enchantments:
     disabled: false
   punch:
     multiplier: 10
-    limit: 2
+    limit: 20
     disabled: false
   quick_charge:
     multiplier: 10
@@ -128,7 +128,7 @@ enchantments:
     disabled: false
   riptide:
     multiplier: 10
-    limit: 3
+    limit: 30
     disabled: false
   sharpness:
     multiplier: 10
@@ -144,7 +144,7 @@ enchantments:
     disabled: false
   soul_speed:
     multiplier: 10
-    limit: 3
+    limit: 30
     disabled: false
   sweeping:
     multiplier: 10
@@ -152,7 +152,7 @@ enchantments:
     disabled: false
   swift_sneak:
     multiplier: 10
-    limit: 5
+    limit: 50
     disabled: false
   thorns:
     multiplier: 10

@@ -12,3 +12,12 @@ pt.others
 pt.uptime
 pt.top
 simplescore.cmd.toggle
+skinsrestorer.command
+skinsrestorer.command.gui
+skinsrestorer.command.set
+skinsrestorer.command.set.url
+skinsrestorer.command.set.other
+skinsrestorer.command.clear
+skinsrestorer.command.clear.other
+skinsrestorer.command.update
+skinsrestorer.command.update.other

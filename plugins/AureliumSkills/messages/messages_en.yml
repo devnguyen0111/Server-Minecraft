@@ -218,130 +218,130 @@ abilities:
       info: '{value}% Chance, {value_2}% Damage'
   alchemy:
     alchemist:
-      name: Alchemist
-      desc: 'Potions you brew have a {value}% longer\n&7  duration.'
+      name: Nhà giả kim
+      desc: 'Độc dược bạn pha có thời hạn {value}% lâu hơn.'
       info: '+{value}% Potion Duration'
       lore: '&a(+{duration})'
     brewer:
-      name: Brewer
-      desc: 'Earn {value}% more Alchemy XP'
+      name: Thợ nấu bia
+      desc: 'Nhận {value}% thêm XP từ luyện kim '
       info: '+{value}% XP'
     splasher:
       name: Splasher
-      desc: 'Potions you splash gain {value}% longer\n&7  duration for each player affected.'
+      desc: 'Độc dược bạn quăng tăng thêm {value}% \n&7 thời hạn cho mỗi người chơi bị ảnh hưởng.'
       info: '+{value}% Duration/Player'
     lingering:
-      name: Lingering
-      desc: 'Lingering potions naturally decay {value}%\n&7  slower and decay {value_2}% less per affected entity.'
+      name: Kéo dài
+      desc: 'Linh dược phân rã tự nhiên {value}% \n&7 chậm hơn và phân rã ít hơn {value_2}% cho mỗi thực thể bị ảnh hưởng.'
       info: '-{value}% Natural, -{value_2}% Entity Decay'
     wise_effect:
-      name: Wise Effect
-      desc: 'Gain {value} Wisdom for every unique active\n&7  potion effect.'
+      name: Hiệu ứng khôn ngoan
+      desc: 'Nhận {value} sự khôn ngoan cho mọi hiệu ứng thuốc \n&7 độc nhất đang hoạt động.'
       info: '+{value} Wisdom/Effect'
   enchanting:
     xp_convert:
-      name: XP Convert
-      desc: 'Earn 1 Minecraft experience for every {value}\n&7  skill XP you gain.'
+      name: Chuyển đổi XP
+      desc: 'Kiếm 1 kinh nghiệm Minecraft cho mỗi XP {value} \n&7 kỹ năng mà bạn đạt được.'
       info: '1 EXP/{value} Skill XP'
     enchanter:
-      name: Enchanter
-      desc: 'Earn {value}% more Enchanting XP.'
+      name: Người cường hóa
+      desc: 'Nhận {value}% thêm XP khi cường hóa.'
       info: '+{value}% XP'
     xp_warrior:
-      name: XP Warrior
-      desc: 'Mobs you kill have a {value}% chance of\n&7  dropping double experience.'
+      name: Chiến binh XP
+      desc: 'Quái bạn giết có {value}% cơ hội \n&7 nhận gấp đôi kinh nghiệm.'
       info: '{value}% 2x Mob XP'
     enchanted_strength:
-      name: Enchanted Strength
-      desc: 'Gain {value} Strength for every unique\n&7  enchantment on the item held.'
+      name: Cường hóa sức mạnh
+      desc: 'Nhận được {value} Sức mạnh cho mỗi bùa chú \n&7 duy nhất trên vật phẩm được giữ.'
       info: '{value} Strength/Enchant'
     lucky_table:
-      name: Lucky Table
-      desc: 'Items you enchant using the enchantment\n&7  table have a {value}% chance of upgrading the enchantment\n&7  level by 1 if not max level'
+      name: Bàn enchant may mắn
+      desc: 'Các vật phẩm bạn phù phép bằng cách sử dụng bảng bùa chú \n&7 có {value}% cơ hội nâng cấp bùa chú \n&7 cấp lên 1 nếu không phải là cấp tối đa'
       info: '{value}% Enchant Upgrade Chance'
   healing:
     life_essence:
-      name: Life Essence
-      desc: Instant Health potions heal {value}% more.
+      name: Bản chất cuộc sống
+      desc: Thuốc hồi phục sức khỏe tức thì thêm {value}%.
       info: '+{value}% Instant Health'
     healer:
-      name: Healer
-      desc: Earn {value}% more Healing XP.
+      name: Thầy thuốc
+      desc: Nhận {value}% thêm XP từ việc hồi máu.
       info: '+{value}% XP'
     life_steal:
-      name: Life Steal
-      desc: Heal {value}% of the max HP of hostile mobs\n&7  and players you kill.
+      name: Hút máu
+      desc: Chữa lành {value}% HP tối đa của quái \n&7 và những người chơi bạn giết.
       info: 'Steal {value}% HP'
     golden_heart:
-      name: Golden Heart
-      desc: Damage done to your absorption hearts is\n&7  reduced by {value}%
+      name: Trái tim vàng
+      desc: Sát thương gây ra cho trái tim hấp thụ của bạn là \n&7 giảm {value}%
       info: '-{value}% Absorption Dmg'
     revival:
-      name: Revival
-      desc: Gain &c+{value} Health &7and &6+{value_2} Regeneration\n&7  for 30 seconds after respawning.
+      name: hồi sinh
+      desc: Nhận & c+{value} Máu &7 và &6+{value_2} Tái sinh \n&7 trong 30 giây sau khi hồi sinh.
       info: '+{value} Health, +{value_2} Regen'
-      message: '&fYou gained a revival bonus for 30 seconds! &f(&c+{value} Health, &6+{value_2} Regeneration&f)'
+      message: '&fBạn đã nhận được phần thưởng hồi sinh trong 30 giây! &f(&c+{value} Sức khỏe, &6+{value_2} Tái tạo &f)'
   forging:
     disenchanter:
-      name: Disenchanter
-      desc: Gain {value}% more experience when disenchanting\n&7  items using a grindstone.
+      name: Gỡ cường hóa
+      desc: Nhận thêm {value}% kinh nghiệm khi gỡ cường hóa \n&7 vật phẩm bằng đá mài.
       info: '+{value}% Grindstone EXP'
     forger:
-      name: Forger
-      desc: Earn {value}% more Forging XP.
+      name: Thợ rèn
+      desc: Nhận {value}% thêm XP từ rèn vật phẩm.
       info: '+{value}% XP'
     repairing:
-      name: Repairing
-      desc: Repairing items in an anvil using the raw\n&7  material the item was made from repairs\n&7  {value}% more durability.
+      name: Sửa chữa
+      desc: Sửa chữa các vật phẩm trong một cái đe bằng vật liệu thô \n&7, mặt hàng được tạo ra từ việc sửa chữa \n&7 độ bền cao hơn {value}%.
       info: '+{value}% Anvil Repair'
     anvil_master:
-      name: Anvil Master
-      desc: Increases the maximum repair cost of an anvil\n&7  before it is too expensive to {value} experience.
+      name: Bậc thầy sửa chữa
+      desc: Tăng chi phí sửa chữa tối đa của cái đe \n&7 trước khi quá cao {value} kinh nghiệm.
       info: '{value} Max Cost'
     skill_mender:
-      name: Skill Mender
-      desc: Gaining skill XP has a {value}% chance to repair\n&7  a held item or worn armor piece with the Mending\n&7  enchantment by 1 durability per 2 skill XP.
+      name: Kỹ năng Mender
+      desc: Đạt được XP kỹ năng có {value}% cơ hội để sửa chữa \n&7 một vật phẩm đang giữ hoặc mảnh áo giáp bị mòn với cường hóa Mending \n&7 bằng 1 độ bền cho mỗi 2 XP kỹ năng.
       info: '{value}% Mend Chance'
 acf:
   core:
-    permission_denied: '&cI''m sorry, but you do not have permission to perform this command.'
-    permission_denied_parameter: '&cI''m sorry, but you do not have permission to perform this command.'
-    error_generic_logged: '&cAn error occurred. This problem has been logged. Sorry for the inconvenience.'
-    unknown_command: '&cUnknown Command, please type &e/sk help'
-    invalid_syntax: '&eUsage: &e{command} &a{syntax}'
-    error_prefix: '&cError: {message}'
-    error_performing_command: "&cI'm sorry, but there was an error performing this command."
+    permission_denied: '&cI''m xin lỗi, nhưng bạn không có quyền thực hiện lệnh này.'
+    permission_denied_parameter: '&cI''m xin lỗi, nhưng bạn không có quyền thực hiện lệnh này.'
+    error_generic_logged: '&cĐã xảy ra lỗi. Sự cố này đã được ghi lại. Xin lỗi vì sự bất tiện này.'
+    unknown_command: '&cLệnh không xác định, vui lòng nhập &e/sk trợ giúp'
+    invalid_syntax: '&eSử dụng: &e{command} &a{syntax}'
+    error_prefix: '&cLỗi: {message}'
+    error_performing_command: "&cTôi xin lỗi, nhưng đã xảy ra lỗi khi thực hiện lệnh này."
     info_message: '{message}'
-    please_specify_one_of: '&cError: Please specify one of (&e{valid}&c)'
-    must_be_a_number: '&cError: {num} must be a number.'
-    must_be_min_length: '&cError: Must be at least {min} characters long.'
-    must_be_max_length: '&cError: Must be at most {max} characters long.'
-    please_specify_at_most: '&cError: Please specify a value at most {max}.'
-    please_specify_at_least: '&cError: Please specify a value at least {min}.'
-    not_allowed_on_console: '&cError: Console may not execute this command.'
-    could_not_find_player: '&cError: Could not find a player by the name: &e{search}'
-    no_command_matched_search: '&cNo command matched &e{search}.'
-    help_page_information: '&b - Showing page &a{page} &bof &a{totalpages} &b(&e{results}&b results).'
-    help_no_results: '&bError: No more results.'
-    help_header: '&e=== &bShowing help for &a{commandprefix}{command}&e ==='
+    please_specify_one_of: '&cLỗi: Vui lòng chỉ định một trong số (&e{valid}&c)'
+    must_be_a_number: '&cLỗi: {num} phải là một số.'
+    must_be_min_length: '&cLỗi: Phải dài ít nhất {min} ký tự.'
+    must_be_max_length: '&cLỗi: Độ dài tối đa là {max} ký tự.'
+    please_specify_at_most: '&cLỗi: Vui lòng chỉ định một giá trị tối đa {max}.'
+    please_specify_at_least: '&cLỗi: Vui lòng chỉ định một giá trị ít nhất {min}.'
+    not_allowed_on_console: '&cLỗi: Bảng điều khiển có thể không thực hiện lệnh này.'
+    could_not_find_player: '&cLỗi: Không thể tìm thấy một người chơi theo tên: &e{search}'
+    no_command_matched_search: '&cKhông có lệnh nào phù hợp &e{search}.'
+    help_page_information: '&b - Đang hiển thị trang &a{page} &bcủa &a{totalpages} &b(&e{results}&b kết quả).'
+    help_no_results: '&bLỗi: Không có kết quả khác.'
+    help_header: '&e=== &bHiển thị trợ giúp cho &a{commandprefix}{command}&e ==='
     help_format: '&b{commandprefix}{command} &a{parameters} &e{separator} {description}'
-    help_detailed_header: '&e=== &bShowing detailed help for &a{commandprefix}{command}&e ==='
+    help_detailed_header: '&e=== &bHiển thị trợ giúp chi tiết cho &a{commandprefix}{command}&e ==='
     help_detailed_command_format: '&b{command} &a{parameters} &e{separator} {description}'
     help_detailed_parameter_format: '&a{syntaxorname}: &e{description}'
-    help_search_header: '&e=== &bSearch results for &a{commandprefix}{command} {search}&e ==='
+    help_search_header: '&e=== &bTìm kiếm kết quả cho &a{commandprefix}{command} {search}&e ==='
   minecraft:
-    invalid_world: '&cError: That world does not exist.'
-    you_must_be_holding_item: '&cError: You must be holding an item in your main hand.'
-    player_is_vanished_confirm: '&eWarning: &a{vanished} &eis vanished. Do not blow their cover!\n&eTo confirm your action add &a:confirm &eto the end of their name.\n&eEx: {vanished}:confirm'
-    username_too_short: '&cError: Username too short, must be at least three characters.'
-    is_not_a_valid_name: '&cError: &e{name} &cis not a valid username.'
-    multiple_players_match: '&cError: Multiple players matched &b{search} &e({all})&c, please be more specific.'
-    no_player_found_server: '&cNo player matching &e{search} &cis connected to this server.'
-    no_player_found_offline: '&cNo player matching &e{search}&c could be found.'
-    no_player_found: '&cNo player matching &e{search}&c could be found.'
-    location_please_specify_world: '&cError: Please specify world. Example: &eworld:x,y,z.'
-    location_please_specify_xyz: '&cError: Please specify the coordinates x, y, and z. Example: &eworld:x,y,z.'
-    location_console_not_relative: '&cError: Console may not use relative coordinates for location.'
+    invalid_world: '&cLỗi: Thế giới đó không tồn tại.'
+    you_must_be_holding_item: '&cLỗi: Bạn phải cầm một món đồ trong tay chính của mình.'
+    player_is_vanished_confirm: '&Cảnh báo: &a{vanished} &eis vanished. Do not blow their cover!\n&eTo confirm your action add &a:confirm &eto the end of their name.\n&eEx: {vanished}:confirm'
+    username_too_short: '&cLỗi: Tên người dùng quá ngắn, phải có ít nhất ba ký tự.'
+    is_not_a_valid_name: '&cLỗi: &e{name} &ckhông phải là tên người dùng hợp lệ.'
+    multiple_players_match: '&cLỗi: Nhiều người chơi phù hợp &b{search} &e({all})&c, vui lòng cụ thể hơn.'
+    no_player_found_server: '&cKhông có người chơi phù hợp &e{search} &cđược kết nối với máy chủ này.'
+    no_player_found_offline: '&cKhông có người chơi phù hợp &e{search}&c có thể được tìm thấy.'
+    no_player_found: '&cKhông có người chơi phù hợp &e{search}&c có thể được tìm thấy.'
+    location_please_specify_world: '&cLỗi: Vui lòng chỉ định thế giới. Ví dụ: &eworld:x,y,z.'
+    location_please_specify_xyz: '&cLỗi: Vui lòng xác định tọa độ x, y, và z. Ví dụ: &eworld:x,y,z.'
+    location_console_not_relative: '&cLỗi: Bảng điều khiển không được sử dụng tọa độ tương đối cho vị trí.'
 action_bar:
   idle: '&c{hp}/{max_hp}❤                 &b{mana}/{max_mana} {mana_unit}'
   xp: '&c{hp}/{max_hp}❤  &6+{xp_gained} {skill} {xp_unit} &7({current_xp}/{level_xp} {xp_unit})  &b{mana}/{max_mana} {mana_unit}'
@@ -356,115 +356,115 @@ commands:
   armor:
     modifier:
       add:
-        added: '{color}{stat} &7modifier with level &b{value} &7was added to your item'
-        already_exists: '&eAn armor modifier with stat {color}{stat} &ealready exists on your armor! Remove it first with /sk armor modifier remove'
+        added: '{color}{stat} &7nâng cấp với cấp độ &b{value} &7đã được thêm vào mục của bạn'
+        already_exists: '&eMột công cụ nâng cấp áo giáp với chỉ số {color}{stat} &eđã tồn tại trên áo giáp của bạn! Loại bỏ nó trước với /sk Armor sửa đỗi xóa bỏ'
         lore: '&7{stat}: {color}+{value}'
         lore_subtract: '&7{stat}: {color}-{value}'
       remove:
-        does_not_exist: '&eYour item does not have a {color}{stat} &emodifier!'
-        removed: '{color}{stat} &7modifier was removed from your item'
+        does_not_exist: '&eVật phẩm của bạn không có {color}{stat} &enâng cấp!'
+        removed: '{color}{stat} &7Nâng cấp đã được gỡ bỏ khỏi vật phẩm'
       list:
-        header: '&fArmor modifiers found:'
+        header: '&fArmor nâng cấp được tìm thấy:'
         entry: '  {color}{stat}&f - {value}'
       removeall:
-        removed: '&7All armor modifiers have been removed from your item'
+        removed: '&7All armor công cụ nâng cấp đã bị xóa khỏi mục của bạn'
     multiplier:
       add:
-        added: '&b{target} &7multiplier with value &b{value} &7was added to your item'
-        already_exists: '&eAn armor multiplier with target &b{target} &ealready exists on your armor! Remove it first with /sk armor multiplier remove'
-        skill_lore: '&7When worn: &b+{value}% {skill} XP'
-        skill_lore_subtract: '&7When worn: &b-{value}% {skill} XP'
-        global_lore: '&7When worn: &9+{value}% Skill XP'
-        global_lore_subtract: '&7When worn: &9-{value}% Skill XP'
+        added: '&b{target} &7hệ số với giá trị &b{value}&7 đã được thêm vào vật phẩm của bạn'
+        already_exists: '&eMột hệ số giáp với target &b{target} &eđã tồn tại trên áo giáp của bạn! Loại bỏ nó trước với /sk Armor nhân loại bỏ'
+        skill_lore: '&7Khi mặc: &b+{value}% {skill} XP'
+        skill_lore_subtract: '&7Khi mặc: &b-{value}% {skill} XP'
+        global_lore: '&7Khi mặc: &9+{value}% Skill XP'
+        global_lore_subtract: '&7Khi mặc: &9-{value}% Skill XP'
       remove:
-        does_not_exist: '&eYour item does not have a &b{target} &earmor multiplier!'
-        removed: '&b{target} &7armor multiplier was removed from your item'
+        does_not_exist: '&eVật phẩm của bạn không có&b{target} &earmor multiplier!'
+        removed: '&b{target} &7armor multiplier đã bị xóa khỏi vật phẩm của bạn'
       list:
-        header: '&fArmor multipliers found:'
+        header: '&fArmor multipliers đã tìm thấy:'
         entry: '  &b{target}&f - {value}'
       removeall:
-        removed: '&7All armor multipliers have been removed from your item'
+        removed: '&7Tất cả armor multipliers đã bị xóa khỏi vật phẩm của bạn'
     requirement:
       add:
-        added: '&3{skill}&7 armor requirement with level &b{level}&7 was added to your item'
-        already_exists: '&eItem already has a &3{skill}&e armor requirement! Remove it first with &6/sk armor requirement remove'
-        lore: '&cRequires &3{skill} {level}'
+        added: '&3{skill}&7 armor requirement với level &b{level}&7 đã được thêm vào vật phẩm của bạn'
+        already_exists: '&evật phẩm đã có một &3{skill}&e armor requirement! Loại bỏ nó trước với &6/sk armor requirement remove'
+        lore: '&cYêu cầu &3{skill} {level}'
       remove:
-        does_not_exist: '&eYour item does not have a &3{skill}&e armor requirement!'
-        removed: '&3{skill}&7 armor requirement was removed from your item'
+        does_not_exist: '&eVật phẩm của bạn không có &3{skill}&e armor requirement!'
+        removed: '&3{skill}&7 armor requirement đã bị xóa khỏi vật phẩm của bạn'
       list:
-        header: '&fArmor requirements found:'
+        header: '&fArmor requirements đã được tìm thấy:'
         entry: '  &3{skill} &f- &b{level}'
       removeall:
-        removed: '&7All armor requirements have been removed from your item'
-      equip: '&eYou do not meet the requirements to equip this item: {requirements}'
+        removed: '&7Tất cả armor requirements đã bị xóa khỏi vật phẩm của bạn'
+      equip: '&eBạn không đáp ứng các yêu cầu để trang bị vật phẩm này: {requirements}'
       entry: '&b{skill} {level}&7, '
   backup:
     load:
-      confirm: '&cLoading a backup will revert all skill data of players. This action is permanent and cannot be undone. You may want to save a backup before loading one. Type the command again to confirm this action'
+      confirm: '&cTải bản sao lưu sẽ hoàn nguyên tất cả dữ liệu kỹ năng của người chơi. Hành động này là vĩnh viễn và không thể hoàn tác. Bạn có thể muốn lưu một bản sao lưu trước khi tải một bản sao lưu. Nhập lệnh một lần nữa để xác nhận hành động này'
       loading: '&fLoading backup...'
-      loaded: '&aSuccessfully loaded backup'
-      error: '&cError loading backup: {error}'
-      must_be_yaml: '&eFile must be a .yml file!'
-      file_not_found: '&eA backup of this file name does not exist in the backups folder!'
+      loaded: '&aLoaded backup thành công'
+      error: '&cLỗi loading backup: {error}'
+      must_be_yaml: '&eTệp phải là một file.yml !'
+      file_not_found: '&eBản sao lưu của tên tệp này không tồn tại trong thư mục sao lưu!'
     save:
       saving: '&fSaving backup...'
       saved: '&fBacked up {type} data as {file}'
-      error: '&cError backing up {type} data! See error in console/below for details'
+      error: '&cLỗi backing up {type} data! Xem lỗi trong bảng điều khiển / bên dưới để biết chi tiết'
   claimitems:
-    no_items: '&eYou have no items to claim'
+    no_items: '&eBạn không có mục nào để yêu cầu'
   item:
     give:
       sender: '&fGave &b{amount}x {key} &fto {player}'
-      receiver: '&fYou were given &b{amount}x {key}'
+      receiver: '&fBạn được cho &b{amount}x {key}'
     modifier:
       add:
-        added: '{color}{stat} &7modifier with level &b{value} &7was added to your item'
-        already_exists: '&eAn item modifier with stat {color}{stat} &ealready exists on your armor! Remove it first with /sk item modifier remove'
+        added: '{color}{stat} &7nâng cấp với level &b{value} &7đã được thêm vào vật phẩm'
+        already_exists: '&eMột vật phẩm nâng cấp với chỉ số {color}{stat} &eđã tồn tại trên armor của bạn ! Loại bỏ nó trước với /sk item modifier remove'
         lore: '&7{stat}: {color}+{value}'
         lore_subtract: '&7{stat}: {color}-{value}'
       remove:
-        does_not_exist: '&eYour item does not have a {color}{stat} &emodifier!'
-        removed: '{color}{stat} &7modifier was removed from your item'
+        does_not_exist: '&eVật phẩm của bạn không có {color}{stat} &enâng cấp!'
+        removed: '{color}{stat} &7nâng cấp đã loại bỏ khỏi vật phẩm của bạn'
       list:
-        header: '&fItem modifiers found:'
+        header: '&fItem nâng cấp found:'
         entry: '  {color}{stat}&f - {value}'
       removeall:
-        removed: '&7All item modifiers have been removed from your item'
+        removed: '&7Tất cả vật phẩm nâng cấp nâng cấp đã loại bỏ khỏi vật phẩm của bạn'
     multiplier:
       add:
-        added: '&b{target} &7multiplier with value &b{value} &7was added to your item'
-        already_exists: '&eAn item multiplier with target &b{target} &ealready exists on your item! Remove it first with /sk item multiplier remove'
-        skill_lore: '&7When held: &b+{value}% {skill} XP'
-        skill_lore_subtract: '&7When held: &b-{value}% {skill} XP'
-        global_lore: '&7When held: &9+{value}% Skill XP'
-        global_lore_subtract: '&7When held: &9-{value}% Skill XP'
+        added: '&b{target} &7multiplier với giá trị &b{value} &7đã được thêm vào vật phẩm'
+        already_exists: '&eMột vật phẩm multiplier với target &b{target} &eđã có trên vật phẩm của bạn! Loại bỏ nó trước với /sk item multiplier remove'
+        skill_lore: '&7Khi cầm: &b+{value}% {skill} XP'
+        skill_lore_subtract: '&7Khi cầm: &b-{value}% {skill} XP'
+        global_lore: '&7Khi cầm: &9+{value}% Skill XP'
+        global_lore_subtract: '&7Khi cầm: &9-{value}% Skill XP'
       remove:
-        does_not_exist: '&eYour item does not have a &b{target} &eitem multiplier!'
-        removed: '&b{target} &7item multiplier was removed from your item'
+        does_not_exist: '&eVật phẩm của bạn không có &b{target} &e multiplier!'
+        removed: '&b{target} &7Vật phẩm multiplier đã được loại bỏ khỏi vật phẩm của bạn'
       list:
         header: '&fItem multipliers found:'
         entry: '  &b{target}&f - {value}'
       removeall:
-        removed: '&7All item multipliers have been removed from your item'
+        removed: '&7Tất cả vật phẩm multipliers đã được loại bỏ khỏi vật phẩm của bạn'
     register:
       registered: '&fRegistered held item to key {key}'
       already_registered: '&eThere is already an item registered to key &f{key}&e, use &f/skills item unregister &eto unregister it first'
       no_spaces: '&eItem key cannot contain spaces!'
     requirement:
       add:
-        added: '&3{skill}&7 item requirement with level &b{level}&7 was added to your item'
-        already_exists: '&eItem already has a &3{skill}&e item requirement! Remove it first with &6/sk item requirement remove'
-        lore: '&cRequires &3{skill} {level}'
+        added: '&3{skill}&7 yêu cầu vật phẩm với cấp độ &b{level}&7 đã được thêm vào vật phẩm của bạn'
+        already_exists: '&eVật phẩm đã có một &3{skill}&e item requirement! Loại bỏ nó trước với &6/sk item requirement remove'
+        lore: '&cYêu cầu &3{skill} {level}'
       remove:
-        does_not_exist: '&eYour item does not have a &3{skill}&e item requirement!'
-        removed: '&3{skill}&7 item requirement was removed from your item'
+        does_not_exist: '&eVật phẩm của bạn không có &3{skill}&e item requirement!'
+        removed: '&3{skill}&7 item requirement đã được loại bỏ khỏi vật phẩm của bạn'
       list:
         header: '&fItem requirements found:'
         entry: '  &3{skill} &f- &b{level}'
       removeall:
-        removed: '&7All item requirements have been removed from your item'
-      use: '&eYou do not meet the requirements to use this item: {requirements}'
+        removed: '&7Tất cả item requirements đã được loại bỏ khỏi vật phẩm của bạn'
+      use: '&eBạn không đáp ứng các yêu cầu để sử dụng vật phẩm này: {requirements}'
       entry: '&b{skill} {level}&7, '
     unregister:
       unregistered: '&fUnregistered item with key {key}'
@@ -475,33 +475,33 @@ commands:
   mana:
     display: '&fYour {mana_unit}: &b{current}/{max}'
     display_other: '&f{mana_unit} of {player}: &b{current}/{max}'
-    add: '&7Added &b{amount} {mana_unit} &7to player &6{player}'
-    remove: '&7Removed &b{amount} {mana_unit} &7from player &6{player}'
-    set: '&7Set player &6{player} &7to &b{amount} {mana_unit}'
-    at_least_zero: '&e{mana_unit} must be at least zero!'
-    console_specify_player: '&eConsole must specify a player!'
+    add: '&7Đã thêm &b{amount} {mana_unit} &7to người chơi&6{player}'
+    remove: '&7Đã xóa &b{amount} {mana_unit} &7khỏi người chơi &6{player}'
+    set: '&7Đặt người chơi &6{player} &7to &b{amount} {mana_unit}'
+    at_least_zero: '&e{mana_unit} ít nhất phải bằng 0!'
+    console_specify_player: '&eBảng điều khiển phải chỉ định một người chơi!'
   modifier:
     add:
-      added: '{color}{stat} &7modifier level &b{value} &7with name &f{name} &7added to player &6{player}'
-      already_exists: '&eModifier with name {name} already exists on player &6{player}&e! Remove it with &6/sk modifier remove {player} {name}'
+      added: '{color}{stat} &7modifier level &b{value} &7với tên &f{name} &7được thêm vào người chơi &6{player}'
+      already_exists: '&eModifier với tên {name} đã tồn tại trên người chơi &6{player}&e! loại bỏ nó với &6/sk modifier remove {player} {name}'
     remove:
-      not_found: '&eModifier {name} not found for player &6{player}'
-      removed: '&7Modifier &f{name} &7removed from player &6{player}'
+      not_found: '&eModifier {name} không tìm thấy trên người chơi &6{player}'
+      removed: '&7Modifier &f{name} &7đã xóa trên người chơi &6{player}'
     list:
-      all_stats_header: '&7Stat modifiers for player &6{player}:'
+      all_stats_header: '&7Chỉ số modifiers của người chơi &6{player}:'
       all_stats_entry: '  &f{name} - {color}{stat} &fLevel &6{value}'
-      one_stat_header: '&7Stat modifiers ({color}{stat}&7) for player &6{player}:'
+      one_stat_header: '&7Chỉ số modifiers ({color}{stat}&7) của người chơi &6{player}:'
       one_stat_entry: '  &f{name} - {color}{stat} &fLevel &6{value}'
-      players_only: '&eOnly players can list their own modifiers! Try specifying a player'
+      players_only: '&eChỉ người chơi mới có thể liệt kê danh sách modifiers của riêng họ ! Thử chỉ định một người chơi'
     removeall:
-      removed_all_stats: '&7Removed &b{num} &7stat modifiers from player &6{player}'
-      removed_one_stat: '&7Removed &b{num} {color}{stat} &7modifiers from player &6{player}'
-      players_only: '&eOnly players can remove their own modifiers! Try specifying a player'
+      removed_all_stats: '&7Đã xóa &b{num} &7chỉ số modifiers từ người chơi &6{player}'
+      removed_one_stat: '&7Đã xóa &b{num} {color}{stat} &7modifiers từ người chơi  &6{player}'
+      players_only: '&eChỉ người chơi mới có thể liệt kê danh sách modifiers của riêng họ ! Thử chỉ định một người chơi'
   multiplier:
     global: Global
     list: '&fGlobal XP multiplier for &6{player}&f: &b{multiplier}x / +{percent}%'
     skill_entry: '&b{skill} &fXP multiplier: &b{multiplier}x / +{percent}%'
-    players_only: '&eOnly players can list their own multiplier! Specify a player!'
+    players_only: '&eChỉ người chơi mới có thể liệt kê danh sách multiplier của riêng họ ! Chỉ định một người chơi!'
   rank:
     header: '&b&lYour Skill Rankings'
     power: '&ePower &7(All Skills): &f#{rank} of {total}'
@@ -513,18 +513,18 @@ commands:
     saved: '&aSkill data saved!'
   skill:
     reset:
-      reset_all: '&7All Skills set to level &b1 &7for player &6{player}'
-      reset_skill: '&7Skill &b{skill} &7set to level &b1 &7for player &6{player}'
+      reset_all: '&7Tất cả kỹ năng đặt thành level &b1 &7của người chơi &6{player}'
+      reset_skill: '&7Kĩ năng &b{skill} &7đặt thành level &b1 &7của người chơi &6{player}'
     setall:
-      at_least_one: '&eLevel must be at least 1!'
-      set: '&7All skills set to level &b{level} &7for player &6{player}'
+      at_least_one: '&eLevel ít nhất phải là 1!'
+      set: '&7Tất cả kĩ năng đặt thành level &b{level} &7của người chơi &6{player}'
     setlevel:
-      at_least_one: '&eLevel must be at least 1!'
-      set: '&7Skill &b{skill} &7set to level &b{level} &7for player &6{player}'
+      at_least_one: '&eLevel ít nhất phải là 1!'
+      set: '&7Kỹ năng &b{skill} &7đặt thành level &b{level} &7của người chơi &6{player}'
   toggle:
-    enabled: '&aYour skills action bar has been enabled'
-    disabled: '&cYour skills action bar has been disabled'
-    not_enabled: '&eSkills action bar is not enabled on this server!'
+    enabled: '&aThanh hành động kỹ năng của bạn đã được bật'
+    disabled: '&cThanh hành động kỹ năng của bạn đã được tắt'
+    not_enabled: '&eThanh hành động kỹ năng không được bật trên máy chủ này!'
   top:
     power_entry: '&f{rank}. &b{player} &f- {level}'
     power_header: '&f--==&b&lAll Skills Leaderboard&f==--'
@@ -541,27 +541,27 @@ commands:
     updated: '&aLeaderboard updated!'
   version: '&fYou are on Aurelium Skills version &b{current_version}&f. The latest version is &b{latest_version}'
   xp:
-    add: '&7Added &b{amount} {skill} &7XP to player &7{player}'
-    set: '&7Set &b{skill} &7XP for player &7{player} &7to {amount}'
-    remove: '&7Removed &b{amount} {skill} &7XP from player &6{player}'
-  unknown_skill: '&eUnknown skill!'
-  no_profile: '&ePlayer does not have a skills profile. Please try rejoining the game or restarting the server.'
+    add: '&7Đã thêm &b{amount} {skill} &7XP cho người chơi &7{player}'
+    set: '&7Đặt &b{skill} &7XP cho người chơi &7{player} &7thành {amount}'
+    remove: '&7Đã xóa &b{amount} {skill} &7XP từ người chơi &6{player}'
+  unknown_skill: '&eKỹ năng không tồn tại!'
+  no_profile: '&eNgười chơi không có hồ sơ kỹ năng. Vui lòng thử tham gia lại trò chơi hoặc khởi động lại máy chủ.'
 leveler:
   title: '&a{skill} Level Up'
   subtitle: '&6{old} ➜ {new}'
   level_up: '&3&m----------------------------------------\n&r &3Skill Level Up! &b&l{skill} &8{old}➜&3&l{new}\n \n &bRewards:{stat_level}{ability_unlock}{ability_level_up}{mana_ability_unlock}{mana_ability_level_up}{money_reward}\n&3&m----------------------------------------'
   stat_level: '\n  {color}+{num}{symbol} {stat}'
-  ability_unlock: '\n  &aAbility Unlock! &6&l{ability} &7has been unlocked'
-  ability_level_up: '\n  &aAbility Level Up! &6&l{ability} &7is now level &6{level}'
-  mana_ability_unlock: '\n  &dMana Ability Unlock! &9&l{mana_ability} &7has been unlocked'
-  mana_ability_level_up: '\n  &dMana Ability Level Up! &9&l{mana_ability} &7is now level &6{level}'
+  ability_unlock: '\n  &aMở khóa khả năng! &6&l{ability} &7đã được mở khóa'
+  ability_level_up: '\n  &aAbility na Level Up! &6&l{ability} &7hiện tại là level &6{level}'
+  mana_ability_unlock: '\n  &dMana Mở khóa khả năng! &9&l{mana_ability} &7đã được mở khóa'
+  mana_ability_level_up: '\n  &dMana Ability Level Up! &9&l{mana_ability} &7hiện tại làlevel &6{level}'
   money_reward: '\n  &a${amount}'
-  unclaimed_item: '&cYou have unclaimed items because your inventory was full, use &e/skills claimitems &cto claim them'
+  unclaimed_item: '&cBạn có các vật phẩm chưa có người nhận vì túi đồ của bạn đã đầy, hãy sử dụng &e/skills claimitems &cđể nhận'
 menus:
   common:
     close: '&cClose'
     level: '&7Level: &e{level}'
-    progress_to_level: '&7Progress to Level {level}: &e{percent}%\n  &7{current_xp}/{level_xp} {xp_unit}'
+    progress_to_level: '&7Tiến trình Level {level}: &e{percent}%\n  &7{current_xp}/{level_xp} {xp_unit}'
     max_level: '&6MAX LEVEL'
     ability_levels: '\n&7Ability Levels:\n  {ability_1}\n  {ability_2}\n  {ability_3}\n  {ability_4}\n  {ability_5}\n '
     ability_level_entry: '&6{ability} {level} &8({info})'
@@ -569,35 +569,35 @@ menus:
     stats_leveled: '\n&7Stats Leveled: {stats}'
     mana_ability: '\n&d&lMana Ability &9{mana_ability} {level}\n  &7Duration: &a{duration}s &7Mana Cost: &b{mana_cost} &7Cooldown: &e{cooldown}s\n '
   skills_menu:
-    skills_menu_title: Your Skills
-    your_skills: '&bYour Skills - &6{player}'
-    your_skills_desc: '&7Upgrade Skills by doing various tasks\n&7to unlock valuable stat boosts,\n&7abilities, and more!'
-    your_skills_hover: '&eHover over a Skill for more information!'
-    your_skills_click: '&eClick on a Skill to view level progression!'
-    skill_click: '&eClick to view Level Progression!'
-    skill_locked: '&cYou do no have permission to view this skill!'
-    stats: '&bStats'
-    stats_desc: '&7Earn stat buffs by leveling up skills'
-    stats_click: '&eClick to learn more or view your stats'
+    skills_menu_title: Kĩ năng của bạn
+    your_skills: '&bKĩ năng của bạn - &6{player}'
+    your_skills_desc: '&7Nâng cấp kỹ năng bằng cách thực hiện các nhiệm vụ khác nhau\n&7để mở khóa các mức tăng chỉ số có giá trị,\n&7khả năng và hơn thế nữa!'
+    your_skills_hover: '&eDi chuột vào Kỹ năng để biết thêm thông tin!'
+    your_skills_click: '&eNhấp vào Kỹ năng để xem tiến trình cấp!'
+    skill_click: '&eNhấp để xem Tiến trình cấp!'
+    skill_locked: '&cBạn không có quyền xem kỹ năng này!'
+    stats: '&bChỉ số'
+    stats_desc: '&7Kiếm các chỉ số buff bằng cách lên cấp các kỹ năng'
+    stats_click: '&eNhấp để tìm hiểu thêm hoặc xem số liệu thống kê của bạn'
   level_progression_menu:
-    level_progression_menu_title: '{skill} Levels - Page {page}'
-    your_ranking: '&6Your Skill Ranking'
-    rank_out_of: '&fYou are ranked &6{rank}&f out of {total} players'
-    rank_percent: '&fYou are in the top &6{percent}%&f of players'
-    back: '&aGo Back'
-    back_click: '&7Back to {menu_name} Menu'
-    next_page: '&6Next Page'
-    next_page_click: '&eClick to go to next page'
-    previous_page: '&6Previous Page'
-    previous_page_click: '&eClick to go to previous page'
+    level_progression_menu_title: '{skill} Levels - Trang {page}'
+    your_ranking: '&6Xếp hạng kỹ năng của bạn'
+    rank_out_of: '&fBạn được xếp hạng &6{rank}&f trong {total} người chơi'
+    rank_percent: '&fBạn đang ở trong top  &6{percent}%&f người chơi'
+    back: '&aQuay lại'
+    back_click: '&7Quay lại {menu_name} Menu'
+    next_page: '&6Trang tiếp theo'
+    next_page_click: '&eBấm để chuyển sang trang tiếp theo'
+    previous_page: '&6Trang trước'
+    previous_page_click: '&eBấm để đi đến trang trước'
     level_unlocked: '&aLevel {level}'
     level_in_progress: '&eLevel {level}'
     level_locked: '&cLevel {level}'
     level_number: '&7Level &f{level}'
-    unlocked: '&aUNLOCKED'
-    in_progress: '&eIN PROGRESS'
-    locked: '&cLOCKED'
-    rewards: '&7Rewards:{rewards}'
+    unlocked: '&aĐÃ MỞ KHÓA'
+    in_progress: '&eTRONG TIẾN TRÌNH'
+    locked: '&cĐÃ KHÓA'
+    rewards: '&7Phần thưởng:{rewards}'
     rewards_entry: '\n  {color}+{num} {symbol} {stat}'
     money_reward: '\n  &a${amount}'
     ability_unlock: '\n&6{ability} &a&lAbility Unlock\n&7  {desc}\n '
@@ -605,120 +605,120 @@ menus:
     mana_ability_unlock: '\n&9{mana_ability} &d&lMana Ability Unlock\n&7  {desc}\n '
     mana_ability_level: '\n&9{mana_ability} {level}\n&7  {desc}\n '
     progress: '&7Progress: &e{percent}%\n  &7{current_xp}/{level_xp} {xp_unit}'
-    leaderboard_click: '&eClick to view the {skill} leaderboard'
+    leaderboard_click: '&eBấm để xem {skill} bảng xếp hạng'
     sources: '&aXP Sources'
-    sources_desc: '&7The sources menu shows all the ways you\n&7can earn XP in a skill, as well as how much\n&7XP each source gives.'
-    sources_click: '&eClick to view {skill} sources'
+    sources_desc: '&7Menu nguồn hiển thị tất cả các cách bạn \n&7 có thể kiếm XP trong một kỹ năng, cũng như số tiền \n&7XP mà mỗi nguồn mang lại.'
+    sources_click: '&eBấm để xem {skill} sources'
     abilities: '&cAbilities'
-    abilities_desc: '&bAbilities &7are passive perks you unlock and\n&7upgrade as you level up skills.\n&dMana Abilities &7are a special type of ability\n&7that requires activation and consumes mana.'
-    abilities_click: '&eClick to view {skill} abilities'
+    abilities_desc: '&bKỹ năng &7 là đặc quyền thụ động mà bạn mở khóa và \n&7 nâng cấp khi bạn lên cấp kỹ năng. \n&dMana Kỹ năng &7 là một loại kỹ năng đặc biệt \n&7, yêu cầu kích hoạt và tiêu tốn năng lượng.'
+    abilities_click: '&eBấm để xem {skill} abilities'
   stats_menu:
-    stats_menu_title: Your Stats
+    stats_menu_title: Chỉ số của bạn
     player_stat_entry: ' {color}{symbol} {stat} &f{level}'
-    skills: '\n&7Skills: &f{skills}'
-    your_level: '&7Your Level: {color}{level}'
-    attack_damage: '&4+{value}% Attack Damage'
+    skills: '\n&7Kỹ năng: &f{skills}'
+    your_level: '&7Cấp độ của bạn: {color}{level}'
+    attack_damage: '&4+{value}% sát thương tấn công'
     hp: '&c+{value} ❤'
     saturated_regen: '&6+{value} Saturated Regen'
     full_hunger_regen: '&6+{value} Full Hunger Regen'
     almost_full_hunger_regen: '&6+{value} Almost Full Hunger Regen'
     mana_regen: '&b+{value} Mana/s Regen'
     luck: '&2+{value} Luck'
-    double_drop_chance: '&2Double Drop Chance: {value}%'
+    double_drop_chance: '&2Cơ hội gấp đôi: {value}%'
     xp_gain: '&9+{value}% {xp_unit} Gain'
-    anvil_cost_reduction: '&9Anvil Cost Reduction: {value}%'
-    max_mana: '&9Max Mana: {value}'
-    incoming_damage: '&5-{value}% Incoming Damage'
+    anvil_cost_reduction: '&9Giảm chi phí sử dụng đe: {value}%'
+    max_mana: '&9Năng lượng tối đa: {value}'
+    incoming_damage: '&5-{value}% sát thương sắp tới'
   unclaimed_items:
-    unclaimed_items_title: 'Claim Items'
-    inventory_full: '&eYou do not have enough space in your inventory to claim that item'
-    click_to_claim: '&eClick to claim!'
+    unclaimed_items_title: 'Yêu cầu các vật phẩm'
+    inventory_full: '&eBạn không có đủ ô trống trong túi đồ để nhận các vật phẩm đó'
+    click_to_claim: '&eBấm để nhận!'
   leaderboard:
-    leaderboard_title: '{skill} Leaderboard'
+    leaderboard_title: '{skill} Bảng xếp hạng'
     player_entry: '&e{place}. &6{player}'
     skill_level: '&7Level: &f{level}'
   sources:
-    sources_title: '{skill} XP Sources ({current_page}/{total_pages})'
-    sorter: '&bSort XP Sources'
+    sources_title: '{skill} XP Nguồn ({current_page}/{total_pages})'
+    sorter: '&bSort XP Nguồn'
     sort_type: '&7{selected}{type_name}\n'
     selected: '&f> '
-    descending: 'Highest to Lowest'
-    ascending: 'Lowest to Highest'
-    alphabetical: 'Name (A-Z)'
-    reverse_alphabetical: 'Name (Z-A)'
-    sort_click: '&eClick to cycle sort type'
+    descending: 'Từ cao nhất đến thấp nhất'
+    ascending: 'Thấp nhất đến cao nhất'
+    alphabetical: 'Tên (A-Z)'
+    reverse_alphabetical: 'Tên (Z-A)'
+    sort_click: '&eNhấp để xoay vòng loại sắp xếp'
     source_name: '&f{name}'
     source_xp: '&7XP: &a{xp}'
     source_xp_rate: '&7XP: &a{xp}/{unit}'
     multiplied_xp: '\n\n&fMultiplied XP: &a{xp}'
     multiplied_xp_rate: '\n\n&fMultiplied XP: &a{xp}/{unit}'
-    multiplied_desc: '\n&7&oThis is the XP you will actually earn\n&7&obased on your current XP multipliers'
+    multiplied_desc: '\n&7&oĐây là XP bạn thực sự sẽ kiếm được\n&7&odựa trên hiện tại của bạn XP multipliers'
   abilities:
     abilities_title: '{skill} Abilities'
-    locked_desc: '&fDescription:\n  &7{desc}'
-    unlocked_at: '&7Unlocked at &3{skill} {level}'
-    your_ability_level: '&fYour Level: &b{level}'
-    your_ability_level_maxed: '&fYour Level: &b{level} &6(MAXED)'
-    unlocked_desc: '&fNext upgrade at &3{skill} {level}&f\n  &7{desc}'
-    unlocked_desc_maxed: '&fDescription:\n  &7{desc}'
+    locked_desc: '&fSự mô tả:\n  &7{desc}'
+    unlocked_at: '&7Đã mở khóa tại &3{skill} {level}'
+    your_ability_level: '&fCấp độ của bạn: &b{level}'
+    your_ability_level_maxed: '&fCấp độ của bạn: &b{level} &6(MAXED)'
+    unlocked_desc: '&fNâng cấp tiếp theo tại &3{skill} {level}&f\n  &7{desc}'
+    unlocked_desc_maxed: '&fSự mô tả:\n  &7{desc}'
 mana_abilities:
   replenish:
     name: Replenish
-    desc: '&7Replants crops automatically for \n&7  {value} seconds. &e[Right click hoe and\n&e  break crop to activate]'
+    desc: '&7Replants crops automatically for \n&7  {value} giây. &e[Nhấp chuột phải vào cuốc và\n&e  phá hạt giống để kích hoạt]'
     raise: '&7You raise your hoe'
     lower: '&7You lower your hoe'
-    start: '&6Replenish Activated! &7(-{mana} {mana_unit})'
+    start: '&6Replenish đã kích hoạt! &7(-{mana} {mana_unit})'
     end: '&7Replenish has worn off'
   treecapitator:
-    name: Treecapitator
-    desc: '&7Breaks entire trees instantly for \n&7  {value} seconds. &e[Right click axe and\n&e  break log to activate]'
+    name: Chặt cây
+    desc: '&7Phá vỡ toàn bộ cây ngay lập tức trong \n&7  {value} giây. &e[Nhấp chuột phải vào rìu và\n&e  chặt cây để kích hoạt]'
     raise: '&7You raise your axe'
     lower: '&7You lower your axe'
-    start: '&6Treecapitator Activated! &7(-{mana} {mana_unit})'
+    start: '&6Treecapitator(Chặt cây) đã kích hoạt! &7(-{mana} {mana_unit})'
     end: '&7Treecapitator has worn off'
   speed_mine:
-    name: Speed Mine
-    desc: '&7Gives Haste {haste_level} for {value} seconds.\n&e  [Right click pickaxe and mine\n&e  block to activate]'
+    name: Tốc độ đào
+    desc: '&7Cho Haste {haste_level} trong {value} giây.\n&e  [Nhấp chuộc phải vào cuốc và đào\n&e  khối để kích hoạt]'
     raise: '&7You raise your pickaxe'
     lower: '&7You lower your pickaxe'
-    start: '&6Speed Mine Activated! &7(-{mana} {mana_unit})'
+    start: '&6Tốc độ đào đã kích hoạt! &7(-{mana} {mana_unit})'
     end: '&7Speed Mine has worn off'
   absorption:
     name: Absorption
-    desc: 'Incoming damage will decrease mana\n&7  by 2x Minecraft damage instead of your\n&7  health for {value} seconds. Mana will not\n&7  regenerate while Absorption is active.\n  &e[Left click shield and take damage to activate]'
+    desc: 'Sát thương đến sẽ giảm năng lượng\n&7  bởi thiệt hại gấp đôi Minecraft thay vì \n&7 máu của bạn trong {value} giây.Năng lượng sẽ không\n&7  tái tạo trong khi Absorption được kích hoạt.\n  &e[Nhấp chuột trái vào khiên và nhận sát thương để kích hoạt]'
     raise: '&7You raise your shield'
     lower: '&7You lower your shield'
-    start: '&6Absorption Activated! &7(-{mana} {mana_unit})'
+    start: '&6Absorption đã kích hoạt! &7(-{mana} {mana_unit})'
     end: '&7Absorption has worn off'
   terraform:
     name: Terraform
-    desc: 'Break blocks instantly in a 4 block radius\n&7  in the same layer when digging for {value} seconds. You\n&7  must use a shovel and extra blocks broken must be\n&7  the same type and in a single connected vein.\n&7  &e[Right click shovel and dig block to activate]'
+    desc: 'Phá vỡ khối ngay lập tức trong bán kính 4 khối\n&7  trong cùng một lớp khi đào trong {value} giây. Bạn\n&7  phải sử dụng một cái xẻng và các khối phụ bị vỡ phải được\n&7  cùng một loại và trong một tĩnh mạch kết nối duy nhất.\n&7  &e[Nhấp chuột phải vào xẻng và đào khối để kích hoạt]'
     raise: '&7You raise your shovel'
     lower: '&7You lower your shovel'
-    start: '&6Terraform Activated! &7(-{mana} {mana_unit})'
+    start: '&6Terraform đã kích hoạt! &7(-{mana} {mana_unit})'
     end: '&7Terraform has worn off'
   sharp_hook:
     name: Sharp Hook
-    desc: 'Deal {value} damage to a hooked entity\n&7  when left clicking with a fishing rod'
-    use: '&6Used Sharp Hook! &7(-{mana} {mana_unit})'
+    desc: 'Gây {value} sát thương đến một thực thể được nối\n&7  khi nhấp chuột trái bằng cần câu'
+    use: '&6Sử dụng Sharp Hook! &7(-{mana} {mana_unit})'
     menu: '\n&d&lMana Ability &9{mana_ability} {level}\n  &7Damage: &c{value} &7Mana Cost: &b{mana_cost} &7Cooldown: &e{cooldown}s\n '
   charged_shot:
     name: Charged Shot
-    desc: 'Arrows you shoot will deal more damage\n&7  based on how far the bow was pulled back,\n&7  consuming mana in the process. Does {value}% more\n&7  damage per mana consumed. &e[Left click\n&e  a bow to toggle charged shot mode]'
+    desc: 'Mũi tên bạn bắn sẽ gây sát thương nhiều hơn\n&7  dựa trên khoảng cách mà dây cung được kéo về phía sau,\n&7  tiêu tốn năng lượng trong quá trình này. Làm {value}% hơn\n&7  sát thương mỗi năng lượng tiêu hao. &e[Chuột trái\n&e  vào cung để thay đổi chế độ bắn]'
     enable: '&7Charged shot mode is now enabled'
     disable: '&7Charged shot mode is now disabled'
     shoot: '&6Used Charged Shot! &d+{percent}% DMG &7(-{mana} {mana_unit})'
     menu: '\n&d&lMana Ability &9{mana_ability} {level}\n  &7Damage: &c+{value}% / Mana &7Max Mana Cost: &b{mana_cost}\n '
   lightning_blade:
     name: Lightning Blade
-    desc: Increases attack speed by {value}% for {duration} seconds.\n&e  [Right click sword and attack mob to activate]
+    desc: Tăng tốc độ tấn công lên {value}% trong {duration} giây.\n&e  [Nhấp chuột phải vào thanh kiếm và tấn công quái để kích hoạt]
     raise: '&7You ready your sword'
     lower: '&7You lower your sword'
-    start: '&6Lightning Blade Activated! &7(-{mana} {mana_unit})'
+    start: '&6Lightning Blade đã kích hoạt! &7(-{mana} {mana_unit})'
     end: '&7Lightning Blade has worn off'
     menu: '\n&d&lMana Ability &9{mana_ability} {level}\n  &7Attack Speed: &c+{value}% &7Duration: &a{duration}s\n  &7Mana Cost: &b{mana_cost} &7Cooldown: &e{cooldown}s\n '
   not_ready: '&cAbility not ready! &7({cooldown}s)'
-  not_enough_mana: '&eNot enough mana! &7({mana} {mana_unit} required, you have {current_mana}/{max_mana})'
+  not_enough_mana: '&eKhông đủ năng lượng! &7({mana} {mana_unit} required, you have {current_mana}/{max_mana})'
 rewards:
   item:
     default_menu_message: '\n  {display_name}'
@@ -728,49 +728,49 @@ rewards:
 skills:
   farming:
     name: Farming
-    desc: '&7Harvest crops to earn Farming {xp_unit}'
+    desc: '&7Thu hoạch cây trồng để kiếm điểm Farming {xp_unit}'
   foraging:
     name: Foraging
-    desc: '&7Cut trees to earn Foraging {xp_unit}'
+    desc: '&7Chặt cây để kiếm điểm Foraging {xp_unit}'
   mining:
     name: Mining
-    desc: '&7Mine stone and ores to earn Mining {xp_unit}'
+    desc: '&7Đào đá và khoáng sản để kiếm điểm Mining {xp_unit}'
   fishing:
     name: Fishing
-    desc: '&7Catch fish to earn Fishing {xp_unit}'
+    desc: '&7Bắt cá để kiếm điểm Fishing {xp_unit}'
   excavation:
     name: Excavation
-    desc: '&7Dig with a shovel to earn Excavation {xp_unit}'
+    desc: '&7Đào với xẻn để nhận điểm Excavation {xp_unit}'
   archery:
     name: Archery
-    desc: '&7Shoot mobs and players with a bow to\n&7earn Archery {xp_unit}'
+    desc: '&7Bắn quái và người chơi bằng cung \n&7để nhận điểm Archery {xp_unit}'
   defense:
     name: Defense
-    desc: '&7Take damage from entities to earn Defense {xp_unit}'
+    desc: '&7Nhận sát thương từ các entity để nhận điểm Defense {xp_unit}'
   fighting:
     name: Fighting
-    desc: '&7Fight mobs with melee weapons to earn\n&7Fighting {xp_unit}'
+    desc: '&7Đánh quái bằng vũ khí cận chiến\n&7để nhận điểm Fighting {xp_unit}'
   endurance:
     name: Endurance
-    desc: '&7Walk and run to earn Endurance {xp_unit}'
+    desc: '&7đi và chạy để nhận điểm Endurance {xp_unit}'
   agility:
     name: Agility
-    desc: '&7Jump and take fall damage to earn\n&7Agility {xp_unit}'
+    desc: '&7Nhảy và nhận sát thương khi rơi \n&7để nhận điểm Agility {xp_unit}'
   alchemy:
     name: Alchemy
-    desc: '&7Brew potions to earn Alchemy {xp_unit}'
+    desc: '&7nấu thuốc để nhận điểm Alchemy {xp_unit}'
   enchanting:
     name: Enchanting
-    desc: '&7Enchant items and books to earn\n&7Enchanting {xp_unit}'
+    desc: '&7Cường hóa sách và vật phẩm\n&7để nhận điểm Enchanting {xp_unit}'
   sorcery:
     name: Sorcery
-    desc: '&7Use mana abilities to earn Sorcery {xp_unit}'
+    desc: '&7Sử dụng năng lượng abilities để nhận điểm Sorcery {xp_unit}'
   healing:
     name: Healing
-    desc: '&7Drink and splash potions to earn\n&7Healing {xp_unit}'
+    desc: '&7Uống và chọi thuốc\n&7để nhận điểm Healing {xp_unit}'
   forging:
     name: Forging
-    desc: '&7Combine and apply books in an anvil to\n&7earn Forging {xp_unit}'
+    desc: '&7Kết hợp và sử dụng sách trong cái đe \n&7để nhận điểm Forging {xp_unit}'
 sources:
   farming:
     wheat: Wheat

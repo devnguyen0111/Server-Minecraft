@@ -1,367 +1,337 @@
-[11:29:57] [ServerMain/INFO]: Building unoptimized datafixer
-[11:29:58] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:29:59] [ServerMain/INFO]: Loaded 7 recipes
-[11:30:00] [Server thread/INFO]: Starting minecraft server version 1.19
-[11:30:00] [Server thread/INFO]: Loading properties
-[11:30:00] [Server thread/INFO]: This server is running CraftBukkit version 3552-Spigot-14a2382-fc30711 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT)
-[11:30:00] [Server thread/INFO]: Debug logging is disabled
-[11:30:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:30:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:30:00] [Server thread/INFO]: Default game type: SURVIVAL
-[11:30:00] [Server thread/INFO]: Generating keypair
-[11:30:00] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:30:00] [Server thread/INFO]: Using default channel type
-[11:30:01] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[11:30:03] [Server thread/WARN]: Legacy plugin Playtimes v1.4.7 does not specify an api-version.
-[11:30:03] [Server thread/INFO]: [dynmap] Loading dynmap v3.4-beta-4-792
-[11:30:03] [Server thread/INFO]: [dynmap] version=3552-Spigot-14a2382-fc30711 (MC: 1.19)
-[11:30:03] [Server thread/INFO]: [dynmap] Mod Support API available
-[11:30:03] [Server thread/INFO]: [MyPermissions] Loading MyPermissions v1.2.6
-[11:30:03] [Server thread/INFO]: [UUIDAuthenticator] Loading UUIDAuthenticator v1.0.1
-[11:30:03] [Server thread/INFO]: [PlayerStats] Loading PlayerStats v1.6
-[11:30:03] [Server thread/INFO]: [DriveBackupV2] Loading DriveBackupV2 v1.6.0
-[11:30:03] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
-[11:30:03] [Server thread/INFO]: [EnhancedEnchants] Loading EnhancedEnchants v1.5
-[11:30:03] [Server thread/INFO]: [CrucialAPI] Loading CrucialAPI v2.1.6
-[11:30:03] [Server thread/INFO]: [Playtimes] Loading Playtimes v1.4.7
-[11:30:03] [Server thread/INFO]: [PowerBoard] Loading PowerBoard v3.5.13
-[11:30:03] [Server thread/INFO]: [Discord Integration 3.2.0] Loading DiscordIntegration v3.2.0
-[11:30:03] [Server thread/INFO]: [AureliumSkills] Loading AureliumSkills vBeta 1.3.6
-[11:30:03] [Server thread/INFO]: [MiningLevels] Loading MiningLevels v1.2.7
-[11:30:03] [Server thread/INFO]: [HarvestEXP] Loading HarvestEXP vBuild 4
-[11:30:03] [Server thread/INFO]: [LevelledMobs] Loading LevelledMobs v3.6.5 b665
-[11:30:03] [Server thread/INFO]: [Discord Integration 3.2.0] Enabling DiscordIntegration v3.2.0
-[11:30:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:30:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:30:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:30:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:30:04] [Server thread/INFO]: Preparing level "world"
-[11:30:04] [Server thread/INFO]: -------- World Settings For [world] --------
-[11:30:04] [Server thread/INFO]: View Distance: 10
-[11:30:04] [Server thread/INFO]: Simulation Distance: 10
-[11:30:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:30:04] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:30:04] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:30:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Mob Spawn Range: 6
-[11:30:04] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:30:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:30:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[11:30:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[11:30:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:30:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:30:04] [Server thread/INFO]: Max TNT Explosions: 100
-[11:30:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:30:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:30:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:30:04] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[11:30:04] [Server thread/INFO]: View Distance: 10
-[11:30:04] [Server thread/INFO]: Simulation Distance: 10
-[11:30:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:30:04] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:30:04] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:30:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Mob Spawn Range: 6
-[11:30:04] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:30:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:30:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[11:30:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[11:30:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:30:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:30:04] [Server thread/INFO]: Max TNT Explosions: 100
-[11:30:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:30:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:30:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:30:04] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[11:30:04] [Server thread/INFO]: View Distance: 10
-[11:30:04] [Server thread/INFO]: Simulation Distance: 10
-[11:30:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:30:04] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:30:04] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:30:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:30:04] [Server thread/INFO]: Mob Spawn Range: 6
-[11:30:04] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:30:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:30:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[11:30:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[11:30:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:30:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:30:04] [Server thread/INFO]: Max TNT Explosions: 100
-[11:30:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:30:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:30:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:30:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:30:06] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[11:30:06] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[11:30:06] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[11:30:06] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[11:30:06] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[11:30:07] [Worker-Main-12/INFO]: Preparing spawn area: 47%
-[11:30:07] [Server thread/INFO]: Time elapsed: 2631 ms
-[11:30:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:30:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:30:08] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[11:30:08] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:30:08] [Worker-Main-4/INFO]: Preparing spawn area: 29%
-[11:30:09] [Server thread/INFO]: Time elapsed: 1724 ms
-[11:30:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:30:09] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[11:30:09] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:30:10] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[11:30:10] [Server thread/INFO]: Time elapsed: 1399 ms
-[11:30:10] [Server thread/INFO]: [dynmap] Enabling dynmap v3.4-beta-4-792
-[11:30:10] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
-[11:30:10] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
-[11:30:10] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
-[11:30:10] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[11:30:11] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[11:30:11] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[11:30:11] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[11:30:11] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[11:30:12] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[11:30:12] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[11:30:12] [Server thread/INFO]: [dynmap] version 3.4-beta-4-792 is enabled - core version 3.4-beta-4-792
-[11:30:12] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[11:30:12] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://twitter.com/Dynmap
-[11:30:12] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[11:30:12] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[11:30:12] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[11:30:12] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[11:30:12] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[11:30:12] [Server thread/INFO]: [dynmap] Enabled
-[11:30:12] [Server thread/INFO]: [MyPermissions] Enabling MyPermissions v1.2.6
-[11:30:12] [Server thread/INFO]: [MyPermissions] Loading files...
-[11:30:12] [Server thread/INFO]: [MyPermissions] Files loaded!
-[11:30:12] [Server thread/INFO]: [MyPermissions] Loading groups...
-[11:30:12] [Server thread/INFO]: [MyPermissions] Loaded groups!
-[11:30:12] [Server thread/INFO]: [MyPermissions] Resetting scoreboard...
-[11:30:12] [Server thread/INFO]: [MyPermissions] Scoreboard reset!
-[11:30:12] [Server thread/INFO]: [MyPermissions] Loading players...
-[11:30:12] [Server thread/INFO]: [MyPermissions] Players loaded!
-[11:30:12] [Server thread/INFO]: [MyPermissions] Loading commands...
-[11:30:12] [Server thread/INFO]: [MyPermissions] Commands loaded!
-[11:30:12] [Server thread/INFO]: [MyPermissions] Registering listeners...
-[11:30:12] [Server thread/INFO]: [MyPermissions] Listeners registered!
-[11:30:12] [Server thread/INFO]: [UUIDAuthenticator] Enabling UUIDAuthenticator v1.0.1
-[11:30:12] [Server thread/INFO]: [UUIDAuthenticator] §aYou are using the latest version of UUIDAuthenticator!
-[11:30:12] [Server thread/ERROR]: [UUIDAuthenticator] Could not connect to database!
-[11:30:12] [Server thread/ERROR]: [UUIDAuthenticator] Unknown database 'minecraft'
-[11:30:12] [Server thread/ERROR]: [UUIDAuthenticator] Please check if you have the correct credentials in the config.yml file and is your database turned on!
-[11:30:12] [Server thread/ERROR]: [UUIDAuthenticator] Could not connect to database!
-[11:30:12] [Server thread/INFO]: [PlayerStats] Enabling PlayerStats v1.6
-[11:30:12] [ReloadThread-1/INFO]: [PlayerStats] ReloadThread loaded 1 offline players: 3ms
-[11:30:12] [Server thread/INFO]: [PlayerStats] Enabled PlayerStats!
-[11:30:12] [Server thread/INFO]: [DriveBackupV2] Enabling DriveBackupV2 v1.6.0
-[11:30:12] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mConfig loaded![m
-[11:30:12] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mScheduling a backup to run every 60 minutes[m
-[11:30:12] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mMetrics started[m
-[11:30:12] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[11:30:12] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[11:30:12] [Server thread/INFO]: [EnhancedEnchants] Enabling EnhancedEnchants v1.5
-[11:30:12] [Server thread/INFO]: [CrucialAPI] Enabling CrucialAPI v2.1.6
-[11:30:12] [Server thread/ERROR]: Your server is not compatible with this plugin. Please update to 1.15 or 1.16, 1.17 or 1.18.
-[11:30:12] [Server thread/INFO]: §2CrucialAPI is now enabled (Version: 2.1.6) made by §b[ChafficPlugins].
-[11:30:12] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.4.7
-[11:30:13] [Server thread/INFO]: [PlayTimes] Plugin is up to date! - 1.4.7[m
-[11:30:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: PlayTimes [1.4.6]
-[11:30:13] [Server thread/INFO]: [0;35;22m[PlayTimes] [0;37;1mPlaceholdersAPI Hooked![m
-[11:30:13] [Server thread/INFO]: [0;35;22m[PlayTimes] [0;37;1mSuccessfully loaded.[m
-[11:30:13] [Server thread/INFO]: [PowerBoard] Enabling PowerBoard v3.5.13
-[11:30:13] [Server thread/INFO]: [PowerBoard] --------------------------------------------------
-[11:30:13] [Server thread/INFO]: [PowerBoard] --------------- Loading PowerBoard ---------------
-[11:30:13] [Server thread/INFO]: [PowerBoard]  
-[11:30:13] [Server thread/INFO]: [PowerBoard] Detected Server Version (original): 1.19-R0.1-SNAPSHOT
-[11:30:13] [Server thread/INFO]: [PowerBoard] Detected Server Version (extracted): 1.19
-[11:30:13] [Server thread/INFO]: [PowerBoard]  
-[11:30:13] [Server thread/INFO]: [PowerBoard] Loading configs..
-[11:30:13] [Server thread/INFO]: [PowerBoard]  
-[11:30:13] [Server thread/INFO]: [PowerBoard] (SelfCheck) config.yml -> Loading...
-[11:30:13] [Server thread/INFO]: [PowerBoard] (SelfCheck) config.yml -> Finished!
-[11:30:13] [Server thread/INFO]: [PowerBoard]  
-[11:30:13] [Server thread/INFO]: [PowerBoard] Configs loaded!
-[11:30:13] [Server thread/INFO]: [PowerBoard]  
-[11:30:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: PowerBoard [3.5.13]
-[11:30:13] [Server thread/INFO]: [PowerBoard] Registered scoreboard 'scoreboard'.
-[11:30:13] [Server thread/INFO]: [PowerBoard]  
-[11:30:13] [Server thread/INFO]: [PowerBoard] --------------- PowerBoard  loaded ---------------
-[11:30:13] [Server thread/INFO]: [PowerBoard] --------------------------------------------------
-[11:30:13] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.6
-[11:30:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aureliumskills [Beta 1.3.6]
-[11:30:13] [Server thread/INFO]: [AureliumSkills] PlaceholderAPI Support Enabled!
-[11:30:13] [Server thread/INFO]: [AureliumSkills] Loaded 185 config options in 0 ms
-[11:30:13] [Server thread/INFO]: [AureliumSkills] Loaded 303 sources and 10 tags in 7ms
-[11:30:13] [Server thread/INFO]: [AureliumSkills] Loading languages...
-[11:30:14] [Server thread/INFO]: [AureliumSkills] Loaded 15 languages in 536ms
-[11:30:14] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
-[11:30:14] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 1ms
-[11:30:14] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
-[11:30:14] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
-[11:30:14] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
-[11:30:14] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
-[11:30:14] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_19_R1! Trying to find NMS support
-[11:30:14] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_19_R1' loaded!
-[11:30:14] [Server thread/INFO]: [NBTAPI] Found Gson: class com.google.gson.Gson
-[11:30:14] [Server thread/INFO]: [MiningLevels] Enabling MiningLevels v1.2.7
-[11:30:14] [Server thread/INFO]: §aSuccessfully connected to CrucialAPI.
-[11:30:14] [Server thread/INFO]: PlaceholderAPI found. Registering Placeholders.
-[11:30:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ml [1.2.7]
-[11:30:14] [Server thread/INFO]: §2MiningLevels is now enabled (Version: 1.2.7) made by §b[ChafficPlugins].
-[11:30:14] [Server thread/INFO]: [HarvestEXP] Enabling HarvestEXP vBuild 4
-[11:30:14] [Server thread/INFO]: [0;30;1m[[38;2;126;255;24mH[38;2;140;254;22ma[38;2;154;253;20mr[38;2;168;252;18mv[38;2;182;251;16me[38;2;196;250;14ms[38;2;210;249;12mt[38;2;224;248;10mE[38;2;238;247;8mX[38;2;252;246;6mP[0;30;1m][m [0;37;1mBuild 4, a [0;32;1mfree [0;37;1mresource by [0;37;22mNorska [0;37;1m- Thanks for downloading![m
-[11:30:15] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v3.6.5 b665
-[11:30:15] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m Using NMS version v1_19_R1 for nametag support[m
-[11:30:15] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mFile Loader: [0;37;22mLoading files...[m
-[11:30:15] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mFile Loader: [0;37;22mLoading file '[0;36;1mrules.yml[0;37;22m'...[m
-[11:30:15] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mFile Loader: [0;37;22mLoading file '[0;36;1msettings.yml[0;37;22m'...[m
-[11:30:15] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mFile Loader: [0;37;22mLoading file '[0;36;1mmessages.yml[0;37;22m'...[m
-[11:30:15] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mListeners: [0;37;22mRegistering event listeners...[m
-[11:30:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: LevelledMobs [3.6.5 b665]
-[11:30:15] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mCommands: [0;37;22mRegistering commands...[m
-[11:30:15] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m Running misc procedures[m
-[11:30:15] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mTasks: [0;37;22mStarting async nametag auto update task...[m
-[11:30:15] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m Start-up complete (took 72ms)[m
-[11:30:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:30:15] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[11:30:15] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
-[11:30:15] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mFile Loader: [0;37;22mLoading file '[0;36;1mcustomdrops.yml[0;37;22m'...[m
-[11:30:15] [Server thread/INFO]: Done (11.174s)! For help, type "help"
-[11:30:15] [Craft Scheduler Thread - 0/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mChecking for updates...[m
-[11:30:15] [Server thread/INFO]: [0;31;1m[21mDiscord Integration failed to connect[m
-[11:30:15] [Server thread/ERROR]: [Discord Integration 3.2.0] Field `discord-token` in config.yml has not been set
-[11:30:15] [Server thread/ERROR]: [Discord Integration 3.2.0] Visit https://github.com/dominik-korsa/discord-integration/wiki/Configuring-a-Discord-bot for the configuration guide
-[11:30:15] [Server thread/WARN]: [Discord Integration 3.2.0] No Discord channels have been added in field `chat.channels`
-[11:30:15] [Server thread/WARN]: [Discord Integration 3.2.0] Put the IDs of the channels you want to be forwarded to Minecraft
-[11:30:15] [Server thread/WARN]: [Discord Integration 3.2.0] as entries in that list
-[11:30:15] [Server thread/WARN]: [Discord Integration 3.2.0] TIP: Enable `Advanced/Developer Mode` setting in Discord
-[11:30:15] [Server thread/WARN]: [Discord Integration 3.2.0] to get access to `Copy ID` feature in the right click menu
-[11:30:15] [Server thread/WARN]: [Discord Integration 3.2.0] 
-[11:30:15] [Server thread/WARN]: [Discord Integration 3.2.0] No webhooks have been added in field `chat.webhooks`
-[11:30:15] [Server thread/WARN]: [Discord Integration 3.2.0] Visit https://github.com/dominik-korsa/discord-integration/wiki/Configuring-a-Discord-bot#configuring-webhooks
-[11:30:15] [Server thread/WARN]: [Discord Integration 3.2.0] for configuration instructions
-[11:30:15] [Server thread/WARN]: [Discord Integration 3.2.0] 
-[11:30:16] [Server thread/INFO]: [PowerBoard] Registering players...
-[11:30:16] [Server thread/INFO]: [PowerBoard] All players have been registered.
-[11:30:18] [Server thread/INFO]: [0;30;1m[[38;2;126;255;24mH[38;2;140;254;22ma[38;2;154;253;20mr[38;2;168;252;18mv[38;2;182;251;16me[38;2;196;250;14ms[38;2;210;249;12mt[38;2;224;248;10mE[38;2;238;247;8mX[38;2;252;246;6mP[0;30;1m][m [0;37;1mAttempting hooks...[m
-[11:30:18] [Server thread/INFO]: [0;30;1m[[38;2;126;255;24mH[38;2;140;254;22ma[38;2;154;253;20mr[38;2;168;252;18mv[38;2;182;251;16me[38;2;196;250;14ms[38;2;210;249;12mt[38;2;224;248;10mE[38;2;238;247;8mX[38;2;252;246;6mP[0;30;1m][m [0;37;1mHooked into [0;32;1mPlaceholderAPI[0;37;1m![m
-[11:30:18] [Server thread/INFO]: [0;30;1m[[38;2;126;255;24mH[38;2;140;254;22ma[38;2;154;253;20mr[38;2;168;252;18mv[38;2;182;251;16me[38;2;196;250;14ms[38;2;210;249;12mt[38;2;224;248;10mE[38;2;238;247;8mX[38;2;252;246;6mP[0;30;1m][m [0;37;1mSuccessfully performed [0;32;1m1 hooks[0;37;1m![m
-[11:31:44] [Server thread/WARN]: handleDisconnection() called twice
-[11:39:32] [User Authenticator #1/INFO]: UUID of player monizm is d5b68a8d-5fa2-321c-bbcd-4763877455d6
-[11:39:33] [Server thread/WARN]: java.lang.NullPointerException
-[11:39:33] [Server thread/WARN]: 	at com.imdamilan.uuidauthenticator.spigot.listeners.PlayerJoinListener.onPlayerJoin(PlayerJoinListener.kt:45)
-[11:39:33] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[11:39:33] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-[11:39:33] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306)
-[11:39:33] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[11:39:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589)
-[11:39:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576)
-[11:39:33] [Server thread/WARN]: 	at net.minecraft.server.players.PlayerList.a(PlayerList.java:281)
-[11:39:33] [Server thread/WARN]: 	at net.minecraft.server.network.LoginListener.a(LoginListener.java:195)
-[11:39:33] [Server thread/WARN]: 	at net.minecraft.server.network.LoginListener.d(LoginListener.java:181)
-[11:39:33] [Server thread/WARN]: 	at net.minecraft.server.network.LoginListener.c(LoginListener.java:83)
-[11:39:33] [Server thread/WARN]: 	at net.minecraft.network.NetworkManager.a(NetworkManager.java:258)
-[11:39:33] [Server thread/WARN]: 	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:173)
-[11:39:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312)
-[11:39:33] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394)
-[11:39:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197)
-[11:39:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1010)
-[11:39:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:291)
-[11:39:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[11:39:33] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mEnabling automatic backups[m
-[11:39:33] [Server thread/INFO]: monizm joined the game
-[11:39:33] [Server thread/INFO]: monizm[/127.0.0.1:62191] logged in with entity id 82 at ([world]-548.5955272386556, 65.0, -411.74227462012294)
-[11:40:17] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
-[11:41:22] [Server thread/INFO]: monizm has made the advancement [Monster Hunter]
-[11:42:02] [Server thread/INFO]: monizm was shot by Lvl 19 | Skeleton
-[11:42:35] [Server thread/INFO]: monizm was shot by Lvl 9 | Skeleton
-[11:43:13] [Server thread/INFO]: monizm was shot by Lvl 4 | Skeleton
-[11:43:34] [Server thread/INFO]: monizm was shot by Lvl 9 | Skeleton
-[11:43:49] [Server thread/INFO]: monizm issued server command: /agility
-[11:45:33] [Server thread/INFO]: monizm lost connection: Disconnected
-[11:45:33] [Server thread/INFO]: monizm left the game
-[11:50:29] [Server thread/INFO]: Stopping the server
-[11:50:29] [Server thread/INFO]: Stopping server
-[11:50:29] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v3.6.5 b665
-[11:50:29] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mTasks: [0;37;22mStopping async nametag auto update task...[m
-[11:50:29] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mTasks: [0;37;22mShutting down other async tasks...[m
-[11:50:29] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m Shut-down complete (took 0ms)[m
-[11:50:29] [Server thread/INFO]: [HarvestEXP] Disabling HarvestEXP vBuild 4
-[11:50:29] [Server thread/INFO]: [MiningLevels] Disabling MiningLevels v1.2.7
-[11:50:29] [Server thread/INFO]: §2MiningLevels is now disabled (Version: 1.2.7)
-[11:50:29] [Server thread/INFO]: [AureliumSkills] Disabling AureliumSkills vBeta 1.3.6
-[11:50:29] [Server thread/INFO]: [Discord Integration 3.2.0] Disabling DiscordIntegration v3.2.0
-[11:50:29] [Server thread/INFO]: [PowerBoard] Disabling PowerBoard v3.5.13
-[11:50:29] [Server thread/INFO]: [Playtimes] Disabling Playtimes v1.4.7
-[11:50:29] [Server thread/INFO]: [CrucialAPI] Disabling CrucialAPI v2.1.6
-[11:50:29] [Server thread/INFO]: §2CrucialAPI is now disabled.
-[11:50:29] [Server thread/INFO]: [EnhancedEnchants] Disabling EnhancedEnchants v1.5
-[11:50:29] [Server thread/INFO]: [0;36;22m[[21m[0;36;1mE[0;36;22mnhanced[0;36;1mE[0;36;22mnchants[m[0;36;22m][m made by [0;36;1mKars[m
-[11:50:29] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
-[11:50:29] [Server thread/INFO]: [DriveBackupV2] Disabling DriveBackupV2 v1.6.0
-[11:50:29] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mStopping plugin![m
-[11:50:29] [Server thread/INFO]: [PlayerStats] Disabling PlayerStats v1.6
-[11:50:29] [Server thread/INFO]: [PlayerStats] Disabled PlayerStats!
-[11:50:29] [Server thread/INFO]: [UUIDAuthenticator] Disabling UUIDAuthenticator v1.0.1
-[11:50:29] [Server thread/INFO]: [MyPermissions] Disabling MyPermissions v1.2.6
-[11:50:29] [Server thread/INFO]: [MyPermissions] Resetting scoreboard...
-[11:50:29] [Server thread/INFO]: [MyPermissions] Scoreboard reset!
-[11:50:29] [Server thread/INFO]: [dynmap] Disabling dynmap v3.4-beta-4-792
-[11:50:29] [Craft Scheduler Thread - 6/INFO]: [0;36;1mLevelledMobs:[0;37;22m Nametag update queue Manager has exited[m
-[11:50:29] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[11:50:29] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[11:50:29] [Server thread/INFO]: [dynmap] Saved 1859 pending tile renders in world 'world'
-[11:50:29] [Craft Scheduler Thread - 3/INFO]: [0;36;1mLevelledMobs:[0;37;22m Mob processing queue Manager has exited[m
-[11:50:34] [Server thread/INFO]: [dynmap] Disabled
-[11:50:34] [Server thread/INFO]: Saving players
-[11:50:34] [Server thread/INFO]: Saving worlds
-[11:50:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:50:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:50:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:11:08] [ServerMain/INFO]: Building unoptimized datafixer
+[23:11:08] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:11:09] [ServerMain/INFO]: Loaded 7 recipes
+[23:11:10] [Server thread/INFO]: Starting minecraft server version 1.19
+[23:11:10] [Server thread/INFO]: Loading properties
+[23:11:10] [Server thread/INFO]: This server is running CraftBukkit version 3552-Spigot-14a2382-fc30711 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT)
+[23:11:11] [Server thread/INFO]: Debug logging is disabled
+[23:11:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:11:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:11:11] [Server thread/INFO]: Default game type: SURVIVAL
+[23:11:11] [Server thread/INFO]: Generating keypair
+[23:11:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:11:11] [Server thread/INFO]: Using default channel type
+[23:11:11] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[23:11:14] [Server thread/WARN]: Legacy plugin Playtimes v1.4.7 does not specify an api-version.
+[23:11:14] [Server thread/INFO]: [DiscordIntegration] Loading DiscordIntegration v2.4.5
+[23:11:14] [Server thread/INFO]: Waiting for JDA to initialize to send starting message... (max 5 seconds before skipping)
+[23:11:15] [Discord Integration - Launch Thread/INFO]: Login Successful!
+[23:11:16] [JDA MainWS-ReadThread/INFO]: Connected to WebSocket
+[23:11:16] [JDA MainWS-ReadThread/INFO]: Finished Loading!
+[23:11:16] [Discord Integration - Launch Thread/INFO]: Bot Ready
+[23:11:16] [Discord Integration - Launch Thread/INFO]: Caching members...
+[23:11:16] [Discord Integration - Addon-Loader/INFO]: Loading DiscordIntegration addons...
+[23:11:16] [Discord Integration - Addon-Loader/INFO]: Addon loading complete!
+[23:11:16] [JDA MainWS-ReadThread/INFO]: All 14 members cached for Guild Test bot discord GOM
+[23:11:17] [JDA MainWS-ReadThread/INFO]: All 13 members cached for Guild WAZZUP SHOP
+[23:11:21] [Server thread/INFO]: Finished registering! Registered 9 commands
+[23:11:21] [Server thread/INFO]: [MyPermissions] Loading MyPermissions v1.2.6
+[23:11:21] [Server thread/INFO]: [PlayerStats] Loading PlayerStats v1.6
+[23:11:21] [Server thread/INFO]: [DriveBackupV2] Loading DriveBackupV2 v1.6.0
+[23:11:21] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
+[23:11:21] [Server thread/INFO]: [EnhancedEnchants] Loading EnhancedEnchants v1.5
+[23:11:21] [Server thread/INFO]: [CrucialAPI] Loading CrucialAPI v2.1.6
+[23:11:21] [Server thread/INFO]: [Playtimes] Loading Playtimes v1.4.7
+[23:11:21] [Server thread/INFO]: [AureliumSkills] Loading AureliumSkills vBeta 1.3.6
+[23:11:21] [Server thread/INFO]: [SimpleScore] Loading SimpleScore v3.12.1
+[23:11:21] [Server thread/INFO]: [MiningLevels] Loading MiningLevels v1.2.7
+[23:11:21] [Server thread/INFO]: [TabList] Loading TabList v5.6.3
+[23:11:21] [Server thread/INFO]: [HarvestEXP] Loading HarvestEXP vBuild 4
+[23:11:21] [Server thread/INFO]: [LevelledMobs] Loading LevelledMobs v3.6.5 b665
+[23:11:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:11:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:11:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:11:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:11:21] [Server thread/INFO]: Preparing level "world"
+[23:11:21] [Server thread/INFO]: -------- World Settings For [world] --------
+[23:11:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:11:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:11:21] [Server thread/INFO]: View Distance: 10
+[23:11:21] [Server thread/INFO]: Simulation Distance: 10
+[23:11:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:11:21] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[23:11:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:11:21] [Server thread/INFO]: Mob Spawn Range: 6
+[23:11:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[23:11:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:11:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[23:11:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[23:11:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[23:11:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:11:21] [Server thread/INFO]: Max TNT Explosions: 100
+[23:11:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:11:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:11:21] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[23:11:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:11:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:11:21] [Server thread/INFO]: View Distance: 10
+[23:11:21] [Server thread/INFO]: Simulation Distance: 10
+[23:11:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:11:21] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[23:11:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:11:22] [Server thread/INFO]: Mob Spawn Range: 6
+[23:11:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:11:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[23:11:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[23:11:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[23:11:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:11:22] [Server thread/INFO]: Max TNT Explosions: 100
+[23:11:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:11:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:11:22] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[23:11:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:11:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:11:22] [Server thread/INFO]: View Distance: 10
+[23:11:22] [Server thread/INFO]: Simulation Distance: 10
+[23:11:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:11:22] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[23:11:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:11:22] [Server thread/INFO]: Mob Spawn Range: 6
+[23:11:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[23:11:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:11:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[23:11:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[23:11:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[23:11:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:11:22] [Server thread/INFO]: Max TNT Explosions: 100
+[23:11:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:11:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:11:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:11:24] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[23:11:24] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[23:11:24] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[23:11:24] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[23:11:24] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[23:11:24] [Worker-Main-11/INFO]: Preparing spawn area: 5%
+[23:11:25] [Worker-Main-7/INFO]: Preparing spawn area: 97%
+[23:11:25] [Server thread/INFO]: Time elapsed: 3012 ms
+[23:11:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:11:26] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[23:11:26] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[23:11:26] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[23:11:26] [Worker-Main-14/INFO]: Preparing spawn area: 3%
+[23:11:27] [Server thread/INFO]: Time elapsed: 1888 ms
+[23:11:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:11:28] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[23:11:28] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[23:11:28] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[23:11:28] [Server thread/INFO]: Time elapsed: 1444 ms
+[23:11:28] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v2.4.5
+[23:11:28] [Server thread/INFO]: [MyPermissions] Enabling MyPermissions v1.2.6
+[23:11:28] [Server thread/INFO]: [MyPermissions] Loading files...
+[23:11:28] [Server thread/INFO]: [MyPermissions] Files loaded!
+[23:11:28] [Server thread/INFO]: [MyPermissions] Loading groups...
+[23:11:28] [Server thread/INFO]: [MyPermissions] Loaded groups!
+[23:11:28] [Server thread/INFO]: [MyPermissions] Resetting scoreboard...
+[23:11:28] [Server thread/INFO]: [MyPermissions] Scoreboard reset!
+[23:11:28] [Server thread/INFO]: [MyPermissions] Loading players...
+[23:11:28] [Server thread/INFO]: [MyPermissions] Players loaded!
+[23:11:28] [Server thread/INFO]: [MyPermissions] Loading commands...
+[23:11:28] [Server thread/INFO]: [MyPermissions] Commands loaded!
+[23:11:28] [Server thread/INFO]: [MyPermissions] Registering listeners...
+[23:11:28] [Server thread/INFO]: [MyPermissions] Listeners registered!
+[23:11:28] [Server thread/INFO]: [PlayerStats] Enabling PlayerStats v1.6
+[23:11:28] [ReloadThread-1/INFO]: [PlayerStats] ReloadThread loaded 2 offline players: 3ms
+[23:11:28] [Server thread/INFO]: [PlayerStats] Enabled PlayerStats!
+[23:11:28] [Server thread/INFO]: [DriveBackupV2] Enabling DriveBackupV2 v1.6.0
+[23:11:28] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mConfig loaded![m
+[23:11:28] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mScheduling a backup to run every 60 minutes[m
+[23:11:28] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mMetrics started[m
+[23:11:28] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[23:11:29] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[23:11:29] [Server thread/INFO]: [EnhancedEnchants] Enabling EnhancedEnchants v1.5
+[23:11:29] [Server thread/INFO]: [CrucialAPI] Enabling CrucialAPI v2.1.6
+[23:11:29] [Server thread/ERROR]: Your server is not compatible with this plugin. Please update to 1.15 or 1.16, 1.17 or 1.18.
+[23:11:29] [Server thread/INFO]: §2CrucialAPI is now enabled (Version: 2.1.6) made by §b[ChafficPlugins].
+[23:11:29] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.4.7
+[23:11:29] [Server thread/INFO]: [PlayTimes] Plugin is up to date! - 1.4.7[m
+[23:11:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: PlayTimes [1.4.6]
+[23:11:29] [Server thread/INFO]: [0;35;22m[PlayTimes] [0;37;1mPlaceholdersAPI Hooked![m
+[23:11:29] [Server thread/INFO]: [0;35;22m[PlayTimes] [0;37;1mSuccessfully loaded.[m
+[23:11:29] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.6
+[23:11:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aureliumskills [Beta 1.3.6]
+[23:11:29] [Server thread/INFO]: [AureliumSkills] PlaceholderAPI Support Enabled!
+[23:11:29] [Server thread/INFO]: [AureliumSkills] Loaded 185 config options in 0 ms
+[23:11:29] [Server thread/INFO]: [AureliumSkills] Loaded 303 sources and 10 tags in 15ms
+[23:11:29] [Server thread/INFO]: [AureliumSkills] Loading languages...
+[23:11:30] [Server thread/INFO]: [AureliumSkills] Loaded 15 languages in 651ms
+[23:11:30] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
+[23:11:30] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 3ms
+[23:11:30] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
+[23:11:30] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
+[23:11:30] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
+[23:11:30] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
+[23:11:30] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_19_R1! Trying to find NMS support
+[23:11:30] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_19_R1' loaded!
+[23:11:30] [Server thread/INFO]: [NBTAPI] Found Gson: class com.google.gson.Gson
+[23:11:30] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.1
+[23:11:30] [Server thread/INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
+[23:11:30] [Server thread/INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
+[23:11:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: SimpleScore [3.12.1]
+[23:11:30] [Server thread/INFO]: [MiningLevels] Enabling MiningLevels v1.2.7
+[23:11:30] [Server thread/INFO]: §aSuccessfully connected to CrucialAPI.
+[23:11:30] [Server thread/INFO]: PlaceholderAPI found. Registering Placeholders.
+[23:11:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ml [1.2.7]
+[23:11:30] [Server thread/INFO]: §2MiningLevels is now enabled (Version: 1.2.7) made by §b[ChafficPlugins].
+[23:11:30] [Server thread/INFO]: [TabList] Enabling TabList v5.6.3
+[23:11:30] [Server thread/INFO]: [TabList] Hooked PlaceholderAPI version: 2.11.2
+[23:11:30] [Server thread/INFO]: [0;33;22m[[0;35;22mTab[0;31;1mList[0;33;22m][0;37;22m >[0;32;1m Enabled[0;33;22m v5.6.3[0;32;1m (49ms)[m
+[23:11:30] [Server thread/INFO]: [HarvestEXP] Enabling HarvestEXP vBuild 4
+[23:11:30] [Server thread/INFO]: [0;30;1m[[38;2;126;255;24mH[38;2;140;254;22ma[38;2;154;253;20mr[38;2;168;252;18mv[38;2;182;251;16me[38;2;196;250;14ms[38;2;210;249;12mt[38;2;224;248;10mE[38;2;238;247;8mX[38;2;252;246;6mP[0;30;1m][m [0;37;1mBuild 4, a [0;32;1mfree [0;37;1mresource by [0;37;22mNorska [0;37;1m- Thanks for downloading![m
+[23:11:31] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v3.6.5 b665
+[23:11:31] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m Using NMS version v1_19_R1 for nametag support[m
+[23:11:31] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mFile Loader: [0;37;22mLoading files...[m
+[23:11:31] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mFile Loader: [0;37;22mLoading file '[0;36;1mrules.yml[0;37;22m'...[m
+[23:11:31] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mFile Loader: [0;37;22mLoading file '[0;36;1msettings.yml[0;37;22m'...[m
+[23:11:31] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mFile Loader: [0;37;22mLoading file '[0;36;1mmessages.yml[0;37;22m'...[m
+[23:11:31] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mListeners: [0;37;22mRegistering event listeners...[m
+[23:11:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: LevelledMobs [3.6.5 b665]
+[23:11:31] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mCommands: [0;37;22mRegistering commands...[m
+[23:11:31] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m Running misc procedures[m
+[23:11:31] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mTasks: [0;37;22mStarting async nametag auto update task...[m
+[23:11:31] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m Start-up complete (took 92ms)[m
+[23:11:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:11:32] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[23:11:32] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mFile Loader: [0;37;22mLoading file '[0;36;1mcustomdrops.yml[0;37;22m'...[m
+[23:11:32] [Server thread/INFO]: Done (10.409s)! For help, type "help"
+[23:11:32] [Craft Scheduler Thread - 0/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mChecking for updates...[m
+[23:11:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: Animations [1.0.5]
+[23:11:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: armor [1.0.0]
+[23:11:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: gradient [1.0]
+[23:11:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: healthbar [0.6]
+[23:11:33] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion killstats due to a missing plugin: killStats
+[23:11:33] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion LevelPoints due to a missing plugin: LevelPoints
+[23:11:33] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion levelup due to a missing plugin: LevelUp
+[23:11:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: localtime [1.2]
+[23:11:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
+[23:11:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: progress [2.1]
+[23:11:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: rainbowcolor [1.2]
+[23:11:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: randomcolor [1.2.0]
+[23:11:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.1]
+[23:11:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: servertime [1.0]
+[23:11:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: world [1.2.1]
+[23:11:33] [Server thread/INFO]: [0;32;1m12 placeholder hook(s) registered! [0;33;22m2 placeholder hook(s) have an update available.[m
+[23:11:33] [Server thread/INFO]: Started
+[23:11:33] [Thread-20/INFO]: No need to regenerate commands
+[23:11:33] [Thread-20/INFO]: Added command help with ID 1000369076767559710
+[23:11:33] [Thread-20/INFO]: Added command list with ID 1000369076767559711
+[23:11:33] [Thread-20/INFO]: Added command uptime with ID 1000369076767559712
+[23:11:33] [Thread-20/INFO]: Added command settings with ID 1000369076767559713
+[23:11:33] [Thread-20/INFO]: Added command linkcheck with ID 1000369076767559714
+[23:11:33] [Thread-20/INFO]: Added command link with ID 1000369076767559715
+[23:11:33] [Thread-20/INFO]: Added command kick with ID 1000369076767559716
+[23:11:33] [Thread-20/INFO]: Added command stop with ID 1000369076767559717
+[23:11:33] [Thread-20/INFO]: Added command kill with ID 1000369076767559718
+[23:11:34] [Server thread/INFO]: [0;30;1m[[38;2;126;255;24mH[38;2;140;254;22ma[38;2;154;253;20mr[38;2;168;252;18mv[38;2;182;251;16me[38;2;196;250;14ms[38;2;210;249;12mt[38;2;224;248;10mE[38;2;238;247;8mX[38;2;252;246;6mP[0;30;1m][m [0;37;1mAttempting hooks...[m
+[23:11:34] [Server thread/INFO]: [0;30;1m[[38;2;126;255;24mH[38;2;140;254;22ma[38;2;154;253;20mr[38;2;168;252;18mv[38;2;182;251;16me[38;2;196;250;14ms[38;2;210;249;12mt[38;2;224;248;10mE[38;2;238;247;8mX[38;2;252;246;6mP[0;30;1m][m [0;37;1mHooked into [0;32;1mPlaceholderAPI[0;37;1m![m
+[23:11:34] [Server thread/INFO]: [0;30;1m[[38;2;126;255;24mH[38;2;140;254;22ma[38;2;154;253;20mr[38;2;168;252;18mv[38;2;182;251;16me[38;2;196;250;14ms[38;2;210;249;12mt[38;2;224;248;10mE[38;2;238;247;8mX[38;2;252;246;6mP[0;30;1m][m [0;37;1mSuccessfully performed [0;32;1m1 hooks[0;37;1m![m
+[23:12:11] [User Authenticator #1/INFO]: UUID of player monizm is d5b68a8d-5fa2-321c-bbcd-4763877455d6
+[23:12:11] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mEnabling automatic backups[m
+[23:12:11] [Server thread/INFO]: monizm joined the game
+[23:12:11] [Server thread/INFO]: monizm[/127.0.0.1:58038] logged in with entity id 262 at ([world]-492.06433425899337, 79.00105942526238, -360.23871640756926)
+[23:12:12] [Craft Scheduler Thread - 2/INFO]: [LocalTime] Couldn't get monizm's timezone. Will use default timezone.
+[23:14:20] [Server thread/INFO]: monizm issued server command: /sb reload
+[23:14:42] [User Authenticator #2/INFO]: UUID of player AnhYen is e30e9833-d712-3184-9178-9403234ba8b6
+[23:14:42] [Server thread/INFO]: AnhYen joined the game
+[23:14:42] [Server thread/INFO]: AnhYen[/127.0.0.1:58801] logged in with entity id 952 at ([world]-398.4620502726631, 71.0, -333.52438423140046)
+[23:14:43] [Craft Scheduler Thread - 10/INFO]: [LocalTime] Couldn't get AnhYen's timezone. Will use default timezone.
+[23:14:59] [Server thread/INFO]: monizm issued server command: /tablist reload
+[23:15:54] [Server thread/INFO]: monizm issued server command: /tablist reload
+[23:16:24] [Server thread/INFO]: monizm issued server command: /tablist reload
+[23:17:00] [Server thread/INFO]: AnhYen issued server command: /tablist monizm
+[23:17:06] [Server thread/INFO]: AnhYen issued server command: /sb toggle
+[23:17:29] [Server thread/INFO]: monizm issued server command: /permissions reload
+[23:18:27] [Server thread/INFO]: monizm issued server command: /mp rl
+[23:18:35] [Server thread/INFO]: AnhYen issued server command: /sb toggle
+[23:18:39] [Server thread/INFO]: AnhYen issued server command: /sb toggle
+[23:19:22] [Server thread/INFO]: AnhYen lost connection: Disconnected
+[23:19:22] [Server thread/INFO]: AnhYen left the game
+[23:19:42] [Server thread/INFO]: Stopping the server
+[23:19:42] [Server thread/INFO]: Stopping server
+[23:19:42] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v3.6.5 b665
+[23:19:42] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mTasks: [0;37;22mStopping async nametag auto update task...[m
+[23:19:42] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m [0;37;1mTasks: [0;37;22mShutting down other async tasks...[m
+[23:19:42] [Server thread/INFO]: [0;36;1mLevelledMobs:[0;37;22m Shut-down complete (took 1ms)[m
+[23:19:42] [Server thread/INFO]: [HarvestEXP] Disabling HarvestEXP vBuild 4
+[23:19:42] [Server thread/INFO]: [TabList] Disabling TabList v5.6.3
+[23:19:42] [Server thread/INFO]: [MiningLevels] Disabling MiningLevels v1.2.7
+[23:19:42] [Server thread/INFO]: §2MiningLevels is now disabled (Version: 1.2.7)
+[23:19:42] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.12.1
+[23:19:42] [Server thread/INFO]: [AureliumSkills] Disabling AureliumSkills vBeta 1.3.6
+[23:19:42] [Server thread/INFO]: [Playtimes] Disabling Playtimes v1.4.7
+[23:19:42] [Server thread/INFO]: [CrucialAPI] Disabling CrucialAPI v2.1.6
+[23:19:42] [Server thread/INFO]: §2CrucialAPI is now disabled.
+[23:19:42] [Server thread/INFO]: [EnhancedEnchants] Disabling EnhancedEnchants v1.5
+[23:19:42] [Server thread/INFO]: [0;36;22m[[21m[0;36;1mE[0;36;22mnhanced[0;36;1mE[0;36;22mnchants[m[0;36;22m][m made by [0;36;1mKars[m
+[23:19:42] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
+[23:19:42] [Server thread/INFO]: [DriveBackupV2] Disabling DriveBackupV2 v1.6.0
+[23:19:42] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mStopping plugin![m
+[23:19:42] [Server thread/INFO]: [PlayerStats] Disabling PlayerStats v1.6
+[23:19:42] [Server thread/INFO]: [PlayerStats] Disabled PlayerStats!
+[23:19:42] [Server thread/INFO]: [MyPermissions] Disabling MyPermissions v1.2.6
+[23:19:42] [Server thread/INFO]: [MyPermissions] Resetting scoreboard...
+[23:19:42] [Server thread/INFO]: [MyPermissions] Scoreboard reset!
+[23:19:42] [Server thread/INFO]: [DiscordIntegration] Disabling DiscordIntegration v2.4.5
+[23:19:42] [Server thread/INFO]: Unloading addons...
+[23:19:42] [Server thread/INFO]: Unloaded addons
+[23:19:42] [Server thread/INFO]: Unloading instance: net.dv8tion.jda.internal.JDAImpl@5ee656d7
+[23:19:42] [Server thread/INFO]: Unloading listener: de.erdbeerbaerlp.dcintegration.common.DiscordEventListener@55d4e4d6
+[23:19:42] [Server thread/INFO]: Saving players
+[23:19:42] [Server thread/INFO]: monizm lost connection: Server đã tắt
+[23:19:42] [Server thread/INFO]: monizm left the game.
+[23:19:42] [Craft Scheduler Thread - 6/INFO]: [0;36;1mLevelledMobs:[0;37;22m Nametag update queue Manager has exited[m
+[23:19:42] [Server thread/INFO]: Saving worlds
+[23:19:42] [Craft Scheduler Thread - 5/INFO]: [0;36;1mLevelledMobs:[0;37;22m Mob processing queue Manager has exited[m
+[23:19:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:19:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:19:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:19:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:19:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:19:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:19:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -1,13 +1,13 @@
 no_permission: Bạn không có quyền để sử dụng lệnh!
 new_level: Bạn đã lên level {0}
-player_not_exist: Player {0} không tồn tại!
+player_not_exist: Người chơi {0} không tồn tại!
 xp_received: Bạn nhận được {0} XP.
 level_of: '{0} is level {1}.'
 level_unlocked: Bạn đã mở khóa level {0}.
 hastelvl_change: 'Haste Level: {0} -> {1}.'
-instant_break_change: 'Instant Break Probability: {0} -> {1}.'
-extra_ore_change: 'Extra Ore Probability: {0} -> {1}.'
-max_extra_ore_change: 'Max Extra Ores: {0} -> {1}.'
+instant_break_change: 'Xác suất đập vỡ tức thì: {0} -> {1}.'
+extra_ore_change: 'Xác suất nhận thêm quặng: {0} -> {1}.'
+max_extra_ore_change: 'Lượng quặng nhận thêm tối đa: {0} -> {1}.'
 rewards_list: 'Phần thưởng:'
 claim_your_reward: Bạn nhận thưởng bằng cách nhập /miningrewards.
 level_dropped: Level của bạn đã rớt xuống {0}.
@@ -18,13 +18,13 @@ no_console_command: Bạn không thể thực hiện lệnh này từ bảng đi
 current_level: 'Level hiện tại: {0}'
 current_xp: 'XP hiện tại: [{0}/{1}]'
 current_haste_level: 'Haste Level hiện tại: {0}'
-current_instant_break_level: 'Instant Break Level hiện tại: {0}'
-current_extra_ore_level: 'Extra Ore Level hiện tại: {0}'
-current_max_extra_ore: 'Max Extra Ores hiện tại: {0}'
+current_instant_break_level: 'Đập vỡ tức thì Level hiện tại: {0}'
+current_extra_ore_level: 'Lượng quặng nhận thêm Level hiện tại: {0}'
+current_max_extra_ore: 'Lượng quặng nhận thêm tối đa hiện tại: {0}'
 only_blocks_allowed: Bạn chỉ có thể thêm khối vào danh sách vật liệu.
 cant_delete_level: Bạn chỉ có thể xóa cấp độ cuối cùng.
 no_rewards: Bạn không có phần thưởng.
 rewards_claimed: Bạn đã nhận được phần thưởng của mình.
 no_more_space: Bạn không có đủ ô trống trong kho của mình.
 level_needed: Bạn cần phải ở cấp {0} để phá vỡ khối này.
-leaderboard_header: Leaderboard
+leaderboard_header: Bảng xếp hạng

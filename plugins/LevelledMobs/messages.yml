@@ -35,13 +35,13 @@
 common:
   prefix: '&b&lLevelledMobs:&7'
   no-permission:
-    - '%prefix% You don''t have access to that.'
+    - '%prefix% Bạn không có quyền truy cập vào đó.'
   players-only:
-    - '%prefix% Only players have access to that.'
+    - '%prefix% Chỉ có người chơi có quyền truy cập vào đó.'
   player-offline:
-    - '%prefix% Player ''&r%player%&7'' is offline.'
+    - '%prefix% Player ''&r%player%&7'' đã offline.'
   invalid-command:
-    - '%prefix% Invalid command.'
+    - '%prefix% Lệnh không tồn tại.'
 
 
 # +-------------------------------------------------------------------------------------------LM3

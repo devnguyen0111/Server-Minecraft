@@ -3,7 +3,7 @@ max_level_xp_drops: false
 level_with:
   player_placed_blocks: false
   generated_blocks: false
-level_progression_messages: actionBar
+level_progression_messages: bossBar
 destroy_mining_blocks_on_explode: true
 admin:
   debug: false

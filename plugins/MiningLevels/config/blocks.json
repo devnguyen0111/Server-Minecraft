@@ -8,6 +8,13 @@
   },
   {
     "materials": [
+      "DEEPSLATE"
+    ],
+    "xp": 1,
+    "minLevel": 0
+  },
+  {
+    "materials": [
       "DEEPSLATE_REDSTONE_ORE",
       "REDSTONE_ORE"
     ],
@@ -27,7 +34,7 @@
       "DEEPSLATE_COAL_ORE",
       "COAL_ORE"
     ],
-    "xp": 10,
+    "xp": 5,
     "minLevel": 0
   },
   {
@@ -35,7 +42,7 @@
       "DEEPSLATE_GOLD_ORE",
       "GOLD_ORE"
     ],
-    "xp": 100,
+    "xp": 50,
     "minLevel": 2
   },
   {
@@ -43,7 +50,7 @@
       "DEEPSLATE_EMERALD_ORE",
       "EMERALD_ORE"
     ],
-    "xp": 10,
+    "xp": 100,
     "minLevel": 3
   },
   {
@@ -59,7 +66,7 @@
       "DEEPSLATE_IRON_ORE",
       "IRON_ORE"
     ],
-    "xp": 50,
+    "xp": 10,
     "minLevel": 1
   },
   {

@@ -1,0 +1,223 @@
+animations:
+  tablist:
+    # Text changing interval in milliseconds (ticks).
+    interval: 60
+
+    # Display the text randomly?
+    random: true
+
+    # The list of texts that will appear
+    texts:
+    - "&b&lServer-Survival"
+    - "&6&lServer-Survival"
+    - "&4&lServer-Survival"
+    - "&9&lServer-Survival"
+    - "&a&lServer-Survival"
+    - "&e&lServer-Survival"
+    - "&5&lServer-Survival"
+    - "&b&lServer-Survival"
+    - "&6&lServer-Survival"
+    - "&4&lServer-Survival"
+    - "&9&lServer-Survival"
+    - "&a&lServer-Survival"
+    - "&e&lServer-Survival"
+    - "&5&lServer-Survival"
+    - "&b&lServer-Survival"
+    - "&6&lServer-Survival"
+    - "&4&lServer-Survival"
+    - "&9&lServer-Survival"
+    - "&a&lServer-Survival"
+    - "&e&lServer-Survival"
+    - "&5&lServer-Survival"
+    - "&b&lServer-Survival"
+
+    survival:
+    # Text changing interval in milliseconds (ticks).
+    interval: 60
+
+    # Display the text randomly?
+    random: true
+
+    # The list of texts that will appear
+    texts:
+    - "&b&lServer-Survival"
+    - "&6&lServer-Survival"
+    - "&4&lServer-Survival"
+    - "&9&lServer-Survival"
+    - "&a&lServer-Survival"
+    - "&e&lServer-Survival"
+    - "&5&lServer-Survival"
+    - "&b&lServer-Survival"
+    - "&6&lServer-Survival"
+    - "&4&lServer-Survival"
+    - "&9&lServer-Survival"
+    - "&a&lServer-Survival"
+    - "&e&lServer-Survival"
+    - "&5&lServer-Survival"
+    - "&b&lServer-Survival"
+    - "&6&lServer-Survival"
+    - "&4&lServer-Survival"
+    - "&9&lServer-Survival"
+    - "&a&lServer-Survival"
+    - "&e&lServer-Survival"
+    - "&5&lServer-Survival"
+    - "&b&lServer-Survival"
+
+  welcome:
+    interval: 200
+    texts:
+    - "&cW"
+    - "&cWe"
+    - "&cWel"
+    - "&cWelc"
+    - "&cWelco"
+    - "&cWelcom"
+    - "&cWelcome"
+    - "&6Welcome"
+    - "&7Welcome"
+    - "&4Welcome"
+    - "&aWelcome"
+    - "&bWelcome"
+    - "&9Welcome"
+    - "&fWelcome"
+    - "&fWelcom"
+    - "&fWelco"
+    - "&fWelc"
+    - "&fWel"
+    - "&fWe"
+    - "&fW"
+    - "&f "
+    - "&f"
+
+  Admin:
+    interval: 200
+    texts:
+    - "&a[&cOwner&a]&6 "
+    - "&a"
+    - "&a["
+    - "&a[&cO"
+    - "&a[&cOw"
+    - "&a[&cOwn"
+    - "&a[&cOwne"
+    - "&a[&cOwner"
+    - "&a[&cOwner&a"
+    - "&a[&cOwner&a]"
+    - "&a[&cOwner&a]&6 "
+    - "&a[&cOwner&a]&6 "
+    - "&a[&cOwner&a]&a "
+    - "&a[&cOwner&a]&e "
+    - "&a[&cOwner&a]&f "
+    - "&a[&cOwner&a]&c "
+    - "&a[&cOwner&a]&b "
+    - "&a[&cOwner&a]&9 "
+  
+  girl:
+    interval: 250
+    text:
+    - "&b&lGirl♥"
+    - "&6&lGirl♥"
+    - "&4&lGirl♥"
+    - "&9&lGirl♥"
+    - "&a&lGirl♥"
+    - "&e&lGirl♥"
+    - "&5&lGirl♥"
+    - "&b&lGirl♥"
+    - "&6&lGirl♥"
+    - "&4&lGirl♥"
+    - "&9&lGirl♥"
+    - "&a&lGirl♥"
+    - "&e&lGirl♥"
+    - "&5&lGirl♥"
+    - "&b&lGirl♥"
+    - "&6&lGirl♥"
+    - "&4&lGirl♥"
+    - "&9&lGirl♥"
+    - "&a&lGirl♥"
+    - "&e&lGirl♥"
+    - "&5&lGirl♥"
+    - "&b&lGirl♥"
+
+  website:
+    interval: 200
+    texts:
+    - "&b♥Girl♥"
+    - "&6♥Girl♥"
+    - "&4♥Girl♥"
+    - "&9♥Girl♥"
+    - "&a♥Girl♥"
+    - "&e♥Girl♥"
+    - "&5♥Girl♥"
+    - "&b♥Girl♥"
+    - "&6♥Girl♥"
+    - "&4♥Girl♥"
+    - "&9♥Girl♥"
+    - "&a♥Girl♥"
+    - "&e♥Girl♥"
+    - "&5♥Girl♥"
+    - "&b♥Girl♥"
+    - "&6♥Girl♥"
+    - "&4♥Girl♥"
+    - "&9♥Girl♥"
+    - "&a♥Girl♥"
+    - "&e♥Girl♥"
+    - "&5♥Girl♥"
+    - "&b♥Girl♥"
+
+  perWorld:
+    interval: 300
+    texts:
+    - "&cThis is a per world plugin&6 TabList"
+    - "&6This is a per world plugin&3 TabList"
+    - "&3This is a per world plugin&a TabList"
+    - "&aThis is a per world plugin&7 TabList"
+
+  perPlayer:
+    interval: 250
+    texts:
+    - "&aWelcome&6 %player%\n<lines>"
+    - "&aWelcome&7 %player%\n<lines>"
+    - "&aWelcome&c %player%\n<lines>"
+    - "&aWelcome&f %player%\n<lines>"
+    - "&aWelcome&e %player%\n<lines>"
+    - "&aWelcome&a %player%\n<lines>"
+    - "&aWelcome&5 %player%\n<lines>"
+    - "&aWelcome&b %player%\n<lines>"
+
+  perGroupHead:
+    interval: 200
+    random: true
+    texts:
+    - "&aWelcome&6 %player%"
+    - "&aWelcome&7 %player%"
+    - "&aWelcome&c %player%"
+    - "&aWelcome&f %player%"
+    - "&aWelcome&e %player%"
+    - "&aWelcome&a %player%"
+    - "&aWelcome&5 %player%"
+    - "&aWelcome&b %player%"
+
+  perGroupFoot:
+    interval: 160
+    texts:
+    - "&b&lDog"
+    - "&6&lDog"
+    - "&4&lDog"
+    - "&9&lDog"
+    - "&a&lDog"
+    - "&e&lDog"
+    - "&5&lDog"
+    - "&b&lDog"
+    - "&6&lDog"
+    - "&4&lDog"
+    - "&9&lDog"
+    - "&a&lDog"
+    - "&e&lDog"
+    - "&5&lDog"
+    - "&b&lDog"
+    - "&6&lDog"
+    - "&4&lDog"
+    - "&9&lDog"
+    - "&a&lDog"
+    - "&e&lDog"
+    - "&5&lDog"
+    - "&b&lDog"

@@ -1,6 +1,12 @@
 [
   {
     "uuid": "d5b68a8d-5fa2-321c-bbcd-4763877455d6",
+    "level": 3,
+    "xp": 555,
+    "unclaimedRewards": []
+  },
+  {
+    "uuid": "e30e9833-d712-3184-9178-9403234ba8b6",
     "level": 0,
     "xp": 0,
     "unclaimedRewards": []

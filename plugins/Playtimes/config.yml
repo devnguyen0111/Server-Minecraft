@@ -13,20 +13,20 @@ date-format: MM/dd/yyyy
   # Only enable this if you are using PAPI holders in PlayTimes
   # If you want to use PlayTimes placeholders in other plugins...
   # Just download PAPI and it will *automatically* register
-use-papi-placeholders: false
+use-papi-placeholders: true
 
  # Main Playtimes info.
  # The name refers to the format. Example if you have minute = " min" then it will display "x min"
 playtime:
   name:
-    second: "s"
-    minute: "min"
-    hour: "hr"
-    day: "day"
-    seconds: "s"
-    minutes: "mins"
-    hours: "hrs"
-    days: "days"
+    second: "giây"
+    minute: "phút"
+    hour: "giờ"
+    day: "ngày"
+    seconds: "giây"
+    minutes: "phút"
+    hours: "giờ"
+    days: "ngày"
 
   ## only-hours - when true it will display playtime in hours (When true this will also disable show-seconds/days setting)
   ## show-seconds - when true it will display seconds
@@ -66,7 +66,7 @@ top-playtime:
 
 # Built in messages, may change to your liking :D
 messages:
-  noPermission: "&cYou cannot run this command."
-  player-not-found: "&cPlayer not found."
-  player-never-joined: "&cPlayer has never joined the server!"
-  cooldown: "&cYou cannot use this command for %timeleft% seconds!"
+  noPermission: "&cBạn không thể chạy lệnh này."
+  player-not-found: "&cKhông tìm thấy người chơi."
+  player-never-joined: "&cNgười chơi chưa bao giờ tham gia máy chủ!"
+  cooldown: "&cBạn không thể sử dụng lệnh này trong %timeleft% giây!"

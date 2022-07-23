@@ -82,7 +82,7 @@ messages:
          centered: false
          content: 
          - ''
-         - ' {PREFIX} &f» &fYou do not have permission to run this command!'
+         - ' {PREFIX} &f» &fBạn không có quyền sử dụng lệnh này!'
          - ''
       actionbar:
          enabled: false

@@ -1,30 +1,30 @@
-no_permission: You don't have permission to do that!
-new_level: You are now level {0}
-player_not_exist: Player {0} does not exist!
-xp_received: You received {0} XP.
+no_permission: Bạn không có quyền để sử dụng lệnh!
+new_level: Bạn đã lên level {0}
+player_not_exist: Player {0} không tồn tại!
+xp_received: Bạn nhận được {0} XP.
 level_of: '{0} is level {1}.'
-level_unlocked: You've unlocked level {0}.
+level_unlocked: Bạn đã mở khóa level {0}.
 hastelvl_change: 'Haste Level: {0} -> {1}.'
 instant_break_change: 'Instant Break Probability: {0} -> {1}.'
 extra_ore_change: 'Extra Ore Probability: {0} -> {1}.'
 max_extra_ore_change: 'Max Extra Ores: {0} -> {1}.'
-rewards_list: 'Rewards:'
-claim_your_reward: You can claim your reward by typing /miningrewards.
-level_dropped: Your level has dropped to {0}.
+rewards_list: 'Phần thưởng:'
+claim_your_reward: Bạn nhận thưởng bằng cách nhập /miningrewards.
+level_dropped: Level của bạn đã rớt xuống {0}.
 xp_gained: 'Level {0}: [{1}/{2}]'
-reload_successful: Successfully reloaded config.
-error_occurred: An error occurred.
-no_console_command: You can't execute this command from console.
-current_level: 'Current Level: {0}'
-current_xp: 'Current XP: [{0}/{1}]'
-current_haste_level: 'Current Haste Level: {0}'
-current_instant_break_level: 'Current Instant Break Level: {0}'
-current_extra_ore_level: 'Current Extra Ore Level: {0}'
-current_max_extra_ore: 'Current Max Extra Ores: {0}'
-only_blocks_allowed: You can only add blocks to the material list.
-cant_delete_level: You can only delete the last level.
-no_rewards: You have no rewards.
-rewards_claimed: You have claimed your reward.
-no_more_space: You don't have enough space in your inventory.
-level_needed: You need to be level {0} to break this block.
+reload_successful: Reload config thành công.
+error_occurred: Đã xảy ra lỗi.
+no_console_command: Bạn không thể thực hiện lệnh này từ bảng điều khiển.
+current_level: 'Level hiện tại: {0}'
+current_xp: 'XP hiện tại: [{0}/{1}]'
+current_haste_level: 'Haste Level hiện tại: {0}'
+current_instant_break_level: 'Instant Break Level hiện tại: {0}'
+current_extra_ore_level: 'Extra Ore Level hiện tại: {0}'
+current_max_extra_ore: 'Max Extra Ores hiện tại: {0}'
+only_blocks_allowed: Bạn chỉ có thể thêm khối vào danh sách vật liệu.
+cant_delete_level: Bạn chỉ có thể xóa cấp độ cuối cùng.
+no_rewards: Bạn không có phần thưởng.
+rewards_claimed: Bạn đã nhận được phần thưởng của mình.
+no_more_space: Bạn không có đủ ô trống trong kho của mình.
+level_needed: Bạn cần phải ở cấp {0} để phá vỡ khối này.
 leaderboard_header: Leaderboard

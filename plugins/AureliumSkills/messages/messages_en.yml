@@ -2,216 +2,216 @@
 abilities:
   farming:
     bountiful_harvest:
-      name: Bountiful Harvest
-      desc: '{value}% chance to get double drops\n&7  from crops.'
+      name: Vụ mùa bội thu
+      desc: '{value}% cơ hội nhận được gấp đôi \n&7 từ cây trồng.'
       info: '{value}% 2x Drops'
     farmer:
-      name: Farmer
-      desc: 'Earn {value}% more Farming XP.'
+      name: Nông dân
+      desc: 'Kiếm thêm {value}% XP từ trang trại.'
       info: '+{value}% XP'
     scythe_master:
-      name: Scythe Master
-      desc: 'Increases damage from hoes by {value}%'
+      name: Bậc thầy Lưỡi hái
+      desc: 'Tăng sát thương từ cuốc lên {value}%'
       info: '+{value}% Hoe Damage'
     geneticist:
-      name: Geneticist
-      desc: 'Increases saturation gain from\n&7  plant-based foods by {value}.'
+      name: Nhà di truyền học
+      desc: 'Tăng độ bão hòa từ thức ăn\n&7  có nguồn gốc thực vật lên{value}.'
       info: '+{value} Saturation'
     triple_harvest:
-      name: Triple Harvest
-      desc: '{value}% chance to get triple drops from\n&7  crops.'
+      name: Thu hoạch ba lần
+      desc: '{value}%  cơ hội nhận được gấp ba\n&7 từ cây trồng.'
       info: '{value}% 3x Drops'
   foraging:
     lumberjack:
-      name: Lumberjack
-      desc: '{value}% chance to get double drops\n&7  from logs.'
+      name: Tiều phu
+      desc: '{value}% cơ hội nhận được gấp đôi\n&7 từ cây.'
       info: '{value}% 2x Drops'
     forager:
-      name: Forager
-      desc: 'Earn {value}% more Foraging XP.'
+      name: Người kiếm ăn
+      desc: 'Kiếm thêm {value}% XP từ chặt gỗ.'
       info: '+{value}% XP'
     axe_master:
-      name: Axe Master
-      desc: 'Increases damage from axes by {value}%'
+      name: Vua rìu
+      desc: 'Tăng sát thương từ rìu lên {value}%'
       info: '+{value}% Axe Damage'
     valor:
-      name: Valor
-      desc: 'Grants +{value} Strength while holding\n&7  an axe'
+      name: Lòng can đảm
+      desc: 'Trợ cấp +{value} Sức mạnh khi cầm \n&7 rìu'
       info: '+{value} Strength'
     shredder:
-      name: Shredder
-      desc: '{value}% chance to deal triple durability\n&7  damage with axes.'
+      name: Máy hủy tài liệu
+      desc: '{value}% cơ hội gây gấp ba độ bền \n&7 sát thương với rìu.'
       info: '{value}% 3x Durability Damage'
   mining:
     lucky_miner:
-      name: Lucky Miner
-      desc: '{value}% chance to get double drops\n&7  from ores.'
+      name: Thợ mỏ may mắn
+      desc: '{value}% cơ hội nhận được gấp đôi \n&7 từ khoáng sản.'
       info: '{value}% 2x Drops'
     miner:
-      name: Miner
-      desc: 'Earn {value}% more Mining XP.'
+      name: Thợ mỏ
+      desc: 'Nhận {value}% thêm XP từ việc đào.'
       info: '+{value}% XP'
     pick_master:
-      name: Pick Master
-      desc: 'Deal {value}% more damage with pickaxes.'
+      name: Bậc thầy cuốc chim
+      desc: 'Gây thêm {value}% sát thương với cuốc.'
       info: '+{value}% Pickaxe Damage'
     stamina:
-      name: Stamina
-      desc: 'Grants +{value} Toughness while\n&7  holding a pickaxe'
+      name: Sự bền bỉ
+      desc: 'Grants +{value} Độ dẻo dai khi \n&7 cầm cuốc'
       info: '+{value} Toughness'
     hardened_armor:
-      name: Hardened Armor
-      desc: '{value}% chance to negate durability\n&7  damage on armor.'
+      name: Giáp cứng
+      desc: '{value}% cơ hội vô hiệu hóa độ bền \n&7 sát thương trên áo giáp.'
       info: '{value}% No Durability Loss'
   fishing:
     lucky_catch:
-      name: Lucky Catch
-      desc: '{value}% added chance to get double drops\n&7  from fishing.'
+      name: Bắt cá may mắn
+      desc: '{value}% cơ hội nhận được gấp đôi\n&7 từ câu cá.'
       info: '{value}% 2x Drops'
     fisher:
       name: Fisher
-      desc: 'Earn {value}% more Fishing XP'
+      desc: 'Nhận {value}% thêm XP từ việc câu cá'
       info: '+{value}% XP'
     treasure_hunter:
-      name: Treasure Hunter
-      desc: '{value}% higher chance to get rare loot from fishing.'
+      name: Thợ săn kho báu
+      desc: '{value}% cơ hội cao hơn để nhận được chiến lợi phẩm hiếm hoi từ câu cá.'
       info: '+{value}% Rare Loot'
     grappler:
       name: Grappler
-      desc: 'Hook entities with {value}% more speed.'
+      desc: 'Kết nối các con cá với tốc độ cao hơn {value}%.'
       info: '+{value}% Hook Speed'
     epic_catch:
-      name: Epic Catch
-      desc: '{value}% added chance to get epic loot\n&7  from fishing.'
+      name: Sử thi bắt cá
+      desc: '{value}% thêm cơ hội để nhận được chiến lợi phẩm \n&7 hoành tráng từ câu cá.'
       info: '+{value}% Epic Loot'
   excavation:
     metal_detector:
-      name: Metal Detector
-      desc: '{value}% added chance to get rare loot from digging.'
+      name: Máy dò kim loại
+      desc: '{value}% thêm cơ hội nhận được chiến lợi phẩm hiếm hoi từ việc đào.'
       info: '+{value}% Rare Loot'
     excavator:
-      name: Excavator
-      desc: 'Earn {value}% more Excavation XP'
+      name: Máy xúc
+      desc: 'Nhận {value}% thêm XP từ việc đào bới'
       info: '+{value}% XP'
     spade_master:
-      name: Spade Master
-      desc: 'Deal {value}% more damage with shovels.'
+      name: Bậc thầy thuổng
+      desc: 'Gây thêm {value}% sát thương bằng xẻng.'
       info: '+{value}% Shovel Damage'
     bigger_scoop:
-      name: Bigger Scoop
-      desc: '{value}% chance to get triple drops from digging.'
+      name: Muỗng lớn hơn
+      desc: '{value}% cơ hội nhận được gấp ba lần từ việc đào.'
       info: '{value}% 3x Drops'
     lucky_spades:
-      name: Lucky Spades
-      desc: '{value}% added chance to get epic loot from digging.'
+      name: Bùa may mắn
+      desc: '{value}% thêm cơ hội để nhận được chiến lợi phẩm hoành tráng từ việc đào.'
       info: '+{value}% Epic Loot'
   archery:
     crit_chance:
-      name: Crit Chance
-      desc: '+{value}% chance to deal a critical hit.'
+      name: Tỉ lệ chí mạng
+      desc: '+{value}% cơ hội để đánh với một đòn chí mạng.'
       info: '+{value}% Crit Chance'
     archer:
-      name: Archer
-      desc: 'Earn {value}% more Archery XP.'
+      name: Người bắn cung
+      desc: 'Nhận {value}% thêm XP từ bắn cung.'
       info: '+{value}% XP'
     bow_master:
-      name: Bow Master
-      desc: 'Deal {value}% more damage with bows.'
+      name: Bậc thầy xạ thủ 
+      desc: 'Gây thêm {value}% sát thương bằng cung tên.'
       info: '+{value}% Bow Damage'
     piercing:
-      name: Piercing
-      desc: '{value}% chance for arrows to\n&7  pierce through mobs.'
+      name: Xuyên
+      desc: '{value}% cơ hội để mũi tên \n&7 xuyên qua đám đông.'
       info: '{value}% Pierce Chance'
     stun:
-      name: Stun
-      desc: '{value}% chance to decreases enemy\n&7  movement speed by 20% for 2 seconds.'
+      name: Choáng váng
+      desc: '{value}% cơ hội giảm 20% tốc độ di chuyển của kẻ địch \n&7 trong 2 giây.'
       info: '{value}% Stun Chance'
   defense:
     shielding:
-      name: Shielding
-      desc: 'Reduce incoming damage by {value}%\n&7  while sneaking.'
+      name: Che chắn
+      desc: 'Giảm sát thương nhận vào {value}% \n&7 khi đang lén lút.'
       info: '-{value}% Incoming Dmg Sneaking'
     defender:
-      name: Defender
-      desc: 'Earn {value}% more Defense XP'
+      name: Hộ vệ
+      desc: 'Nhận {value}% thêm XP từ phòng thủ'
       info: '+{value}% XP'
     mob_master:
-      name: Mob Master
-      desc: 'Reduce incoming damage from mobs by {value}%'
+      name: Bậc thầy giết quái
+      desc: 'Giảm sát thương nhận vào từ quái lên {value}%'
       info: '-{value}% Mob Dmg'
     immunity:
-      name: Immunity
-      desc: '{value}% chance to completely negate\n&7  an enemy attack.'
+      name: Khả năng miễn dịch
+      desc: '{value}% cơ hội vô hiệu hóa hoàn toàn \n&7 đòn tấn công của kẻ thù.'
       info: '{value}% Immune'
     no_debuff:
-      name: No Debuff
-      desc: '{value}% chance to negate a harmful\n&7  potion effect from being applied.'
+      name: Không có Debuff
+      desc: '{value}% cơ hội để loại bỏ hiệu ứng \n&7 bình thuốc có hại đang được áp dụng.'
       info: '{value}% No Debuff'
   fighting:
     crit_damage:
-      name: Crit Damage
-      desc: 'Increases critical hit damage by {value}%'
+      name: Sát thương Crit
+      desc: 'Tăng sát thương chí mạng lên {value}%'
       info: '+{value}% Crit Damage'
     fighter:
-      name: Fighter
-      desc: 'Earn {value}% more Fighting XP'
+      name: Đấu sĩ
+      desc: 'Nhận {value}% thêm XP từ đánh quái'
       info: '+{value}% XP'
     sword_master:
-      name: Sword Master
-      desc: 'Deal {value}% more damage with swords.'
+      name: Bậc thầy kiếm sư
+      desc: 'Gây thêm {value}% sát thương bằng kiếm.'
       info: '+{value}% Sword Damage'
     first_strike:
-      name: First Strike
-      desc: 'Deal {value}% more damage on the first hit.'
+      name: Nhát đánh đầu tiên
+      desc: 'Gây thêm {value}% sát thương trong lần đánh đầu tiên.'
       info: '+{value}% Dmg First Hit'
       dealt: '&cFirst Strike Dealt!'
     bleed:
-      name: Bleed
-      desc: '{value}% chance to make the enemy bleed for\n&7  3 bleed ticks, dealing {value_2} damage per tick.'
+      name: Chảy máu
+      desc: '{value}% cơ hội khiến kẻ thù chảy máu trong \n&7 3 lần chảy máu, gây {value_2} sát thương mỗi lần.'
       info: '{value}% Chance, {value_2} Damage'
-      enemy_bleeding: '&cEnemy Bleeding!'
-      self_bleeding: '&cYou are bleeding!'
-      stop: '&fThe bleeding has stopped'
+      enemy_bleeding: '&cKẻ thù đang chảy máu!'
+      self_bleeding: '&cBạn đang chảy máu!'
+      stop: '&fMáu đã ngừng chảy'
   endurance:
     anti_hunger:
-      name: Anti Hunger
-      desc: '{value}% chance to stop hunger loss.'
+      name: Chống đói
+      desc: '{value}% cơ hội để ngăn chặn mất đói.'
       info: '{value}% No Hunger Loss'
     runner:
-      name: Runner
-      desc: 'Earn {value}% more Endurance XP.'
+      name: Người chạy
+      desc: 'Nhận {value}% thêm XP từ việc chạy.'
       info: '+{value}% XP'
     golden_heal:
-      name: Golden Heal
-      desc: 'Increases regeneration effect\n&7  health gain by {value}%'
+      name: Chữa bệnh bằng vàng
+      desc: 'Tăng hiệu ứng phục hồi \n&7 tăng máu lên {value}%'
       info: '+{value}% Effect Regen'
     recovery:
-      name: Recovery
-      desc: 'Increases natural regeneration when\n&7  at less than half health by {value}%'
+      name: Sự hồi phục
+      desc: 'Tăng khả năng hồi phục tự nhiên khi \n&7 ở mức dưới một nửa máu lên {value}%'
       info: '+{value}% Low HP Regen'
     meal_steal:
       name: Meal Steal
-      desc: '{value}% chance to steal 1 hunger point\n&7  when attacking a player.'
+      desc: '{value}% cơ hội ăn trộm 1 điểm đói \n&7 khi tấn công một người chơi.'
       info: '{value}% Hunger Steal'
   agility:
     light_fall:
-      name: Light Fall
-      desc: 'Reduces all fall damage by {value}%'
+      name: Cú rơi nhẹ nhàng
+      desc: 'Giảm tất cả thiệt hại khi rơi xuống lên {value}%'
       info: '-{value}% Fall Damage'
     jumper:
-      name: Jumper
-      desc: 'Earn {value}% more Agility XP'
+      name: Người nhảy
+      desc: 'Nhận {value}% thêm XP từ việc nhảy'
       info: '+{value}% XP'
     sugar_rush:
       name: Sugar Rush
-      desc: 'Consumed and splashed speed and jump boost\n&7  potions last {value}% longer.'
+      desc: 'Tiêu hao và tăng tốc độ bắn và tăng tốc độ nhảy \n&7 bình thuốc còn {value}%.'
       info: '{value}% Longer Speed'
     fleeting:
-      name: Fleeting
-      desc: 'Gain +{value}% movement speed when below 20% health'
+      name: Thoáng qua
+      desc: 'Nhận +{value}% tốc độ di chuyển khi dưới 20% máu'
       info: '+{value}% Speed'
-      start: '&fYou have gained a fleeting speed boost! &7(+{value}% Speed)'
-      end: '&7Fleeting speed boost has worn off'
+      start: '&fBạn đã được tăng tốc độ! &7(+{value}% tốc độ)'
+      end: '&7Tốc độ tăng nhanh đã hết'
     thunder_fall:
       name: Thunder Fall
       desc: 'When sneaking during a fall, you have a {value}% chance\n&7  to deal {value_2}% of the fall damage expected to mobs\n&7  in a 3 block radius'

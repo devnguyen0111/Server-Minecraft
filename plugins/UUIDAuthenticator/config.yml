@@ -1,0 +1,11 @@
+database:
+  enabled: true
+  address: localhost
+  port: 3306
+  name: minecraft
+  username: root
+  password: ''
+  table-name: uuid_authenticator
+file-auth:
+  enabled: true
+autoupdate-enabled: true

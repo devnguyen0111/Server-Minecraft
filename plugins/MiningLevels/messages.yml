@@ -1,0 +1,30 @@
+no_permission: You don't have permission to do that!
+new_level: You are now level {0}
+player_not_exist: Player {0} does not exist!
+xp_received: You received {0} XP.
+level_of: '{0} is level {1}.'
+level_unlocked: You've unlocked level {0}.
+hastelvl_change: 'Haste Level: {0} -> {1}.'
+instant_break_change: 'Instant Break Probability: {0} -> {1}.'
+extra_ore_change: 'Extra Ore Probability: {0} -> {1}.'
+max_extra_ore_change: 'Max Extra Ores: {0} -> {1}.'
+rewards_list: 'Rewards:'
+claim_your_reward: You can claim your reward by typing /miningrewards.
+level_dropped: Your level has dropped to {0}.
+xp_gained: 'Level {0}: [{1}/{2}]'
+reload_successful: Successfully reloaded config.
+error_occurred: An error occurred.
+no_console_command: You can't execute this command from console.
+current_level: 'Current Level: {0}'
+current_xp: 'Current XP: [{0}/{1}]'
+current_haste_level: 'Current Haste Level: {0}'
+current_instant_break_level: 'Current Instant Break Level: {0}'
+current_extra_ore_level: 'Current Extra Ore Level: {0}'
+current_max_extra_ore: 'Current Max Extra Ores: {0}'
+only_blocks_allowed: You can only add blocks to the material list.
+cant_delete_level: You can only delete the last level.
+no_rewards: You have no rewards.
+rewards_claimed: You have claimed your reward.
+no_more_space: You don't have enough space in your inventory.
+level_needed: You need to be level {0} to break this block.
+leaderboard_header: Leaderboard

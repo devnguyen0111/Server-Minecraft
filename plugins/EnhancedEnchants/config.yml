@@ -1,0 +1,164 @@
+max_repair_cost: 50
+too_expensive_message: true
+
+merge_book_on_book: true
+merge_book_on_item: true
+merge_item_on_item: true
+
+enchantments:
+  aqua_affinity:
+    multiplier: 10
+    limit: 1
+    disabled: false
+  bane_of_arthropods:
+    multiplier: 10
+    limit: 32767
+    disabled: false
+  blast_protection:
+    multiplier: 10
+    limit: 32767
+    disabled: false
+  channeling:
+    multiplier: 10
+    limit: 1
+    disabled: false
+  binding_curse:
+    multiplier: 10
+    limit: 1
+    disabled: false
+  vanishing_curse:
+    multiplier: 10
+    limit: 1
+    disabled: false
+  depth_strider:
+    multiplier: 10
+    limit: 3
+    disabled: false
+  efficiency:
+    multiplier: 10
+    limit: 32767
+    disabled: false
+  feather_falling:
+    multiplier: 10
+    limit: 32767
+    disabled: false
+  fire_aspect:
+    multiplier: 10
+    limit: 5
+    disabled: false
+  fire_protection:
+    multiplier: 10
+    limit: 32767
+    disabled: false
+  flame:
+    multiplier: 10
+    limit: 1
+    disabled: false
+  fortune:
+    multiplier: 10
+    limit: 10
+    disabled: false
+  frost_walker:
+    multiplier: 10
+    limit: 2
+    disabled: false
+  impaling:
+    multiplier: 10
+    limit: 32767
+    disabled: false
+  infinity:
+    multiplier: 10
+    limit: 1
+    disabled: false
+  knockback:
+    multiplier: 10
+    limit: 2
+    disabled: false
+  looting:
+    multiplier: 10
+    limit: 10
+    disabled: false
+  loyalty:
+    multiplier: 10
+    limit: 3
+    disabled: false
+  luck_of_the_sea:
+    multiplier: 10
+    limit: 10
+    disabled: false
+  lure:
+    multiplier: 10
+    limit: 10
+    disabled: false
+  mending:
+    multiplier: 10
+    limit: 1
+    disabled: false
+  multishot:
+    multiplier: 10
+    limit: 1
+    disabled: false
+  piercing:
+    multiplier: 10
+    limit: 32767
+    disabled: false
+  power:
+    multiplier: 10
+    limit: 32767
+    disabled: false
+  projectile_protection:
+    multiplier: 10
+    limit: 32767
+    disabled: false
+  protection:
+    multiplier: 10
+    limit: 32767
+    disabled: false
+  punch:
+    multiplier: 10
+    limit: 2
+    disabled: false
+  quick_charge:
+    multiplier: 10
+    limit: 3
+    disabled: false
+  respiration:
+    multiplier: 10
+    limit: 32767
+    disabled: false
+  riptide:
+    multiplier: 10
+    limit: 3
+    disabled: false
+  sharpness:
+    multiplier: 10
+    limit: 32767
+    disabled: false
+  silk_touch:
+    multiplier: 10
+    limit: 1
+    disabled: false
+  smite:
+    multiplier: 10
+    limit: 32767
+    disabled: false
+  soul_speed:
+    multiplier: 10
+    limit: 3
+    disabled: false
+  sweeping:
+    multiplier: 10
+    limit: 32767
+    disabled: false
+  swift_sneak:
+    multiplier: 10
+    limit: 5
+    disabled: false
+  thorns:
+    multiplier: 10
+    limit: 32767
+    disabled: false
+  unbreaking:
+    multiplier: 10
+    limit: 32767
+    disabled: false

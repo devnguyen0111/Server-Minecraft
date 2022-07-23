@@ -1,0 +1,18 @@
+levelup_sound: ENTITY_PLAYER_LEVELUP
+max_level_xp_drops: false
+level_with:
+  player_placed_blocks: false
+  generated_blocks: false
+level_progression_messages: actionBar
+destroy_mining_blocks_on_explode: true
+admin:
+  debug: false
+mining_items:
+- DIAMOND_PICKAXE
+- GOLDEN_PICKAXE
+- IRON_PICKAXE
+- STONE_PICKAXE
+- WOODEN_PICKAXE
+- NETHERITE_PICKAXE
+prefix: §8[§6ML§8] §r
+language: CUSTOM

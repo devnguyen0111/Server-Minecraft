@@ -1,17 +1,17 @@
-PREFIX: '&e[&2SkinsRestorer&e] '
+PREFIX: '&e[&2Skins&e] '
 HELP_HELP_COMMAND: ' [help]'
-HELP_SKIN_CLEAR: Clears your skin.
-HELP_SKIN_CLEAR_OTHER: Clears the skin of a target player.
-HELP_SKIN_UPDATE: Updates your skin.
-HELP_SKIN_UPDATE_OTHER: Updates the skin of a target player.
-HELP_SKIN_SET: Set the skin of another player.
-HELP_SKIN_SET_OTHER: Sets the skin for a target player.
-HELP_SKIN_SET_OTHER_URL: Set a skin by image_url.png link
+HELP_SKIN_CLEAR: Xóa skin của bạn.
+HELP_SKIN_CLEAR_OTHER: Xóa skin của mục tiêu người chơi.
+HELP_SKIN_UPDATE: Cập nhật skin của bạn.
+HELP_SKIN_UPDATE_OTHER: Cập nhật skin của mục tiêu người chơi.
+HELP_SKIN_SET: Chỉnh skin của người chơi khác.
+HELP_SKIN_SET_OTHER: Chỉnh skin cho mục tiêu người chơi.
+HELP_SKIN_SET_OTHER_URL: Chỉnh skin bằng image_url.png link
 HELP_SR_RELOAD: Reloads the configuration file.
-HELP_SR_STATUS: Checks plugin needed API services.
-HELP_SR_DROP: Removes players or skin data.
-HELP_SR_PROPS: Displays the players current skin properties.
-HELP_SR_APPLY_SKIN: Re-apply the skin for target user.
+HELP_SR_STATUS: Kiểm tra các dịch vụ API cần plugin.
+HELP_SR_DROP: Xóa người chơi hoặc dữ liệu skin.
+HELP_SR_PROPS: Hiển thị các thuộc tính skin hiện tại của người chơi.
+HELP_SR_APPLY_SKIN: Áp dụng lại skin cho người dùng mục tiêu.
 HELP_SR_CREATECUSTOM: Create a custom server wide skin.
 SYNTAX_DEFAULTCOMMAND: ' <skin/url>'
 SYNTAX_SKINSET: ' <skin>'
@@ -22,48 +22,48 @@ SYNTAX_SKINCLEAR_OTHER: ' <target>'
 COMPLETIONS_SKIN: <Skin>
 COMPLETIONS_SKINNAME: <SkinName>
 COMPLETIONS_SKINURL: <SkinUrl>
-PLAYER_HAS_NO_PERMISSION_SKIN: '&4Error&8: &cYou don''t have permission to set this skin.'
-PLAYER_HAS_NO_PERMISSION_URL: '&4Error&8: &cYou don''t have permission to set skins by URL.'
-SKIN_DISABLED: '&4Error&8: &cThis skin is disabled by an administrator.'
-SKINURL_DISALLOWED: '&4Error&8: &cThis domain has not been allowed by the administrator.'
-NOT_PREMIUM: '&4Error&8: &cPremium player with that name does not exist.'
-INVALID_PLAYER: '&4Error&8: &c%player is not a valid username or URL.'
-SKIN_COOLDOWN: '&4Error&8: &cYou can change your skin again in &e%s &cseconds.'
-SKIN_CHANGE_SUCCESS: '&2Your skin has been changed.'
-SKIN_CLEAR_SUCCESS: '&2Your skin has been cleared.'
-SKIN_CLEAR_ISSUER: '&2Skin cleared for player %player.'
-MS_UPDATING_SKIN: '&2Uploading skin, please wait...(This may take up some time)'
-SUCCESS_CREATE_SKIN: '&2Skin %skin has been created!'
-SUCCESS_UPDATING_SKIN: '&2Your skin has been updated.'
-SUCCESS_UPDATING_SKIN_OTHER: '&2Skin updated for player %player.'
-ERROR_UPDATING_SKIN: '&4Error&8: &cAn error occurred while updating your skin. Please try again later!'
-ERROR_UPDATING_URL: "&4Error&8: &cYou can't update custom url skins! \n&cRequest again using /skin url"
-ERROR_UPDATING_CUSTOMSKIN: '&4Error&8: &cSkin can''t be updated because its custom.'
-ERROR_INVALID_URLSKIN: "&4Error&8: &cInvalid skin url or format, \n&cTry uploading your skin to imgur and right click 'copy image address' \n&cFor guide see: &c&oskinsrestorer.net/skinurl"
-ERROR_MS_FULL: '&4MS Error&8: &cAPI timed out while uploading your &cskin. Please try again later. (MineSkin)'
-ERROR_MS_GENERIC: '&4MS Error&8: &c%error%'
-GENERIC_ERROR: '&4Error&8: &cAn error occurred while requesting skin data, please try again later!'
-WAIT_A_MINUTE: '&4Error&8: &cPlease wait a minute before requesting that skin again. (Rate Limited)'
-ERROR_NO_SKIN: '&4Error&8: &cThis player has no skin set.'
-SKINSMENU_OPEN: '&2Opening the skins menu...'
-SKINSMENU_TITLE_NEW: '&9Skins Menu - Page %page'
-SKINSMENU_NEXT_PAGE: '&a&l»&7 Next Page&a&l »'
-SKINSMENU_PREVIOUS_PAGE: '&e&l«&7 Previous Page&e&l «'
-SKINSMENU_CLEAR_SKIN: '&c&l[ &7Remove Skin&c&l ]'
-SKINSMENU_SELECT_SKIN: '&2Click to select this skin'
-ADMIN_SET_SKIN: '&2You set %player''s skin.'
-DATA_DROPPED: '&2Data dropped for %playerOrSkin "%targets".'
-ADMIN_APPLYSKIN_SUCCES: '&2Player skin has been refreshed!'
-ADMIN_APPLYSKIN_ERROR: '&4ERROR&8: &cplayer skin could NOT be refreshed!'
+PLAYER_HAS_NO_PERMISSION_SKIN: '&Lỗi&8: &cBạn không có quyền để sử dụng skin này.'
+PLAYER_HAS_NO_PERMISSION_URL: '&Lỗi&8: &cBạn không có quyền để sử dụng skins bằng URL.'
+SKIN_DISABLED: '&Lỗi&8: &cSkin này bị quản trị viên vô hiệu hóa.'
+SKINURL_DISALLOWED: '&Lỗi&8: &cDomain này chưa được quản trị viên cho phép.'
+NOT_PREMIUM: '&Lỗi&8: &cNgười chơi cao cấp có tên đó không tồn tại.'
+INVALID_PLAYER: '&Lỗi&8: &c%player không phải là tên người dùng hoặc URL hợp lệ.'
+SKIN_COOLDOWN: '&Lỗi&8: &cBạn có thể thay đổi skin của mình một lần nữa trong &e%s &cgiây.'
+SKIN_CHANGE_SUCCESS: '&2Skin của bạn đã được thay đổi.'
+SKIN_CLEAR_SUCCESS: '&2Skin của bạn đã được làm sạch.'
+SKIN_CLEAR_ISSUER: '&2Skin được xóa cho người chơi %player.'
+MS_UPDATING_SKIN: '&2Đang tải lên skin, vui lòng đợi ... (Quá trình này có thể mất một chút thời gian)'
+SUCCESS_CREATE_SKIN: '&2Skin %skin đã được tạo ra!'
+SUCCESS_UPDATING_SKIN: '&2Skin của bạn đã được cập nhật.'
+SUCCESS_UPDATING_SKIN_OTHER: '&2Đã cập nhật skin cho người chơi %player.'
+ERROR_UPDATING_SKIN: '&Lỗi&8: &cMột Lỗi xảy ra trong khi cập nhật skin của bạn. Vui lòng thử lại sau!'
+ERROR_UPDATING_URL: "&Lỗi&8: &cBạn không thể cập nhật skin url tùy chỉnh! \n&cYêu cầu lại bằng cách sử dụng /skin url"
+ERROR_UPDATING_CUSTOMSKIN: '&Lỗi&8: &cSkin không thể được cập nhật vì là skin custom.'
+ERROR_INVALID_URLSKIN: "&Lỗi&8: &cĐịnh dạng hoặc url skin không hợp lệ, \n&cHãy thử tải skin của bạn lên imgur và nhấp chuột phải 'copy image address' \n&cĐể biết hướng dẫn, hãy xem: &c&oskinsrestorer.net/skinurl"
+ERROR_MS_FULL: '&4MS Lỗi&8: &cAPI đã hết thời gian chờ khi tải lên &cskin. Vui lòng thử lại sau. (MineSkin)'
+ERROR_MS_GENERIC: '&4MS Lỗi&8: &c%Lỗi%'
+GENERIC_ERROR: '&Lỗi&8: &cMội lỗi xảy ra khi yêu cầu dữ liệu skin, Vui lòng thử lại sau!'
+WAIT_A_MINUTE: '&Lỗi&8: &cVui lòng đợi một phút trước khi yêu cầu lại skin đó. (Rate Limited)'
+ERROR_NO_SKIN: '&Lỗi&8: &cNgười chơi này không có skin.'
+SKINSMENU_OPEN: '&2Mở menu skin...'
+SKINSMENU_TITLE_NEW: '&9Skins Menu - Trang %page'
+SKINSMENU_NEXT_PAGE: '&a&l»&7 Trang tiếp theo&a&l »'
+SKINSMENU_PREVIOUS_PAGE: '&e&l«&7 Trang trước&e&l «'
+SKINSMENU_CLEAR_SKIN: '&c&l[ &7Xóa Skin&c&l ]'
+SKINSMENU_SELECT_SKIN: '&2Bấm để chọn cái skin này'
+ADMIN_SET_SKIN: '&2Bạn cài %player''s skin.'
+DATA_DROPPED: '&2Dữ liệu bị drog cho %playerOrSkin "%targets".'
+ADMIN_APPLYSKIN_SUCCES: '&2Skin người chơi đã được làm mới!'
+ADMIN_APPLYSKIN_ERROR: '&Lỗi&8: &cskin người chơi KHÔNG thể được làm mới!'
 STATUS_OK: '&2Mojang API connection successful!'
-ALT_API_FAILED: '&4Error&8: &cSkin Data API is overloaded, please try again later!'
-MS_API_FAILED: '&4Error&8: &cMineSkin API is overloaded, please try again later!'
-NO_SKIN_DATA: '&4Error&8: &cNo skin data acquired! Does this player have a skin?'
+ALT_API_FAILED: '&Lỗi&8: &cAPI data skin bị quá tải, Vui lòng thử lại sau!'
+MS_API_FAILED: '&Lỗi&8: &cMineSkin API bị quá tải, Vui lòng thử lại sau!'
+NO_SKIN_DATA: '&Lỗi&8: &cKhông có dữ liệu về skin! Người chơi này có skin không?'
 RELOAD: '&2Config and Locale has been reloaded!'
-OUTDATED: "&4You are running an outdated version of SkinsRestorer!\n&cPlease update to the latest version on Spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"
+OUTDATED: "&4Bạn đang chạy một phiên bản lỗi thời của SkinsRestorer!\n&cVui lòng cập nhật lên phiên bản mới nhất trên Spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"
 SR_LINE: '&7&m----------------------------------------'
 CUSTOM_HELP_IF_ENABLED: |2-
     &2&lSkinsRestorer &7- &f&lv%ver%
-     &2/skin <skinname> &7-&f Changes your skin.
-      &2/skin update &7-&f Updates your skin.
-      &2/skin clear &7-&f Clears your skin.
+     &2/skin <skinname> &7-&f Thay đổi skin của bạn.
+      &2/skin update &7-&f Cập nhật skin của bạn.
+      &2/skin clear &7-&f Xóa skin của bạn.

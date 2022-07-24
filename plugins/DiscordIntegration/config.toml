@@ -2,7 +2,7 @@
 [general]
   # Insert your Bot Token here!
   # DO NOT SHARE IT WITH ANYONE!
-  botToken = "OTg2NjU5MzgxMzIyMDU1NzYw.GaEVbI.Wgnd-nWZrhsMC5DwjnmxmM5IFw6LIWDVGBog7g"
+  botToken = ""
   # The channel ID where the bot will be working in
   botChannel = "1000354927962492950"
   # The bot's status message
@@ -13,7 +13,7 @@
   botStatusName = "%online%/%max% players Online"
   # Type of the bot's status
   # Allowed Values: DISABLED,PLAYING,WATCHING,LISTENING,STREAMING,COMPETING
-  botStatusType = "PLAYING"
+  botStatusType = "WATCHING"
   # URL of the bot's stream when using the status type 'STREAMING'
   # Has to start with https://twitch.tv/ or https://www.youtube.com/watch?v=
   streamingURL = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -167,22 +167,22 @@ settingsBlacklist = [    ]
   # %name% - Returns the player's name
   # %randomUUID% - Returns an random UUID which can be used to prevent discord cache
   playerAvatarURL = "https://minotar.net/avatar/%uuid%?randomuuid=%randomUUID%"
-  webhookName = "MC_DISCORD_INTEGRATION"
+  webhookName = "Minecraft-Server-Chat"
 # Configuration for the in-game command '/discord'
 [ingameCommand]
   # Enable the /discord command to show an custom message with invite URL?
   enabled = true
   # The message displayed when typing /discord in the server chat
-  message = "Join our discord! http://discord.gg/myserver"
+  message = "Join our discord! http://discord.gg/kjt2G6WMT6"
   # The message shown when hovering the /discord command message
   hoverMessage = "Click to open the invite url"
   # The url to open when clicking the /discord command text
-  inviteURL = "http://discord.gg/myserver"
+  inviteURL = "http://discord.gg/kjt2G6WMT6"
 # The command log channel is an channel where every command execution gets logged
 [commandLog]
   # Channel ID for the command log channel
   # Leave 0 to disable
-  channelID = "0"
+  channelID = "949191460463452160"
   # The format of the log messages
   # 
   # PLACEHOLDERS:
@@ -221,7 +221,7 @@ ignoredCommands = [  "list", "help", "?"  ]
   dcMessage = "<%sender%> %msg%"
   # Custom channel ID for dynmap chat
   # Leave 'default' to use default channel
-  dynmapChannelID = "default"
+  dynmapChannelID = "948209457404473404"
   # Name of the webhook title
   name = "Dynmap Web-Chat"
   # URL of the webhook avatar image

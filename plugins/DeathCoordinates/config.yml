@@ -1,0 +1,42 @@
+Config:
+  new-version-reminder: true
+  lava_protection: true
+  void_protection: true
+  invulnerability_on_teleport:
+    enabled: true
+    time: 10
+  teleport-maxtime:
+    enabled: true
+    time: 300
+  teleport-cooldown: 15
+  enabled-worlds:
+  - world
+  - world_nether
+  - world_the_end
+  teleport_money_required: 0
+  console_notification:
+    enabled: false
+    message: '&cPlayer &e%player% &cjust died in: &8(&7%coord-x% %coord-y% %coord-z%&8,
+      &cWorld: &7%world%&8)'
+  world_alias:
+    world: Main World
+    minigames: MiniGames World
+Messages:
+  death-message:
+  - '&cBạn đã liệm! &4Vị trí chết của bạn &c:'
+  - '&7x:%coord-x% y:%coord-y% z:%coord-z%&8, &cWorld: &7%world%'
+  death-message-extra: '&cNhấp vào thông báo này để dịch chuyển bạn đến vị trí chết của bạn'
+  no-died-recently: '&7Bạn chưa chết gần đây.'
+  incorrect-world: '&7Bạn không thể làm điều đó trên thế giới này'
+  prefix: '&4[&cVị-Trí-Chết&4]'
+  plugin-reload: '&aConfig Reloaded'
+  console-command: '&7Bạn cần phải là người chơi để sử dụng lệnh đó'
+  nopermissions: '&7Bạn không có quyền làm điều đó'
+  wrongcommand: '&7Lệnh đó không tồn tại'
+  error-lava: '&7Bạn không thể quay lại vị trí chết của mình vì có dung nham gần đó'
+  error-void: '&7Bạn không thể quay lại vị trí chết của mình vì bạn sẽ rơi vào khoảng không'
+  error-money: '&7Bạn cần &a$%money% &7 phải dịch chuyển bạn đến vị trí chết của bạn'
+  teleporting-message: '&7Đang dịch chuyển...'
+  error-cooldown: '&7Bạn cần phải đợi &c%time% &7giây trước khi dịch chuyển lại.'
+  error-teleport-command: '&cBạn cần sử dụng: &7/dc teleport <player>'
+  no-died-recently-other: '&7Người chơi đó đã không chết gần đây.'
